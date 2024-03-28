@@ -481,9 +481,10 @@ dictionary?
 7. After deployment application is not working. How to roll back last stable version in Jenkins?
 
 ## If you want more real time AWS and DevOps Questions ping me on below WhatsApp Number.
-# +91-9860 7555 32
-# namdev.devops@gmail.com
+# +91 7249 0590 06
+# support@devopswithnamdev.com
 # https://www.youtube.com/@namdev.devops
+# https://devopswithnamdev.com/
 
   
   
