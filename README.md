@@ -1,9 +1,15 @@
-Difference between stopping and terminating an EC2 instance:
+DevOps Interview Ansewers💥
 
-Stopping an EC2 instance halts its operation and preserves its data on the instance's root volume. You can start the instance again later.
-Terminating an EC2 instance permanently deletes it along with its associated data. Once terminated, the instance cannot be restarted.
-Adding an existing instance to a new Auto Scaling group:
-You cannot directly add an existing instance to a new Auto Scaling group. Auto Scaling groups manage the lifecycle of instances, including launching new ones and terminating old ones based on defined policies. To incorporate an existing instance into an Auto Scaling group, you typically create a new launch configuration or use an existing one, then update the Auto Scaling group to use that configuration. This process involves specifying the instance ID and other configuration details.
+Q1 : Difference between stopping and terminating an EC2 instance:
+
+Answer : Stopping an EC2 instance halts its operation and preserves its data on the instance's root volume. You can start the instance again later.
+         Terminating an EC2 instance permanently deletes it along with its associated data. Once terminated, the instance cannot be restarted.
+
+Q2 : Adding an existing instance to a new Auto Scaling group:
+Answer : we cannot directly add an existing instance to a new Auto Scaling group. Auto Scaling groups manage the lifecycle of instances, including launching new         ones and terminating old ones based on defined policies. To incorporate an existing instance into an Auto Scaling group, 
+        we typically create a new launch configuration or use an existing one, then update the Auto Scaling group to use that configuration. 
+        This process involves specifying the instance ID and other configuration details.
+
 Configuring CloudWatch to recover an EC2 instance:
 You can configure CloudWatch to monitor the health of EC2 instances and trigger actions based on predefined alarms. To recover an EC2 instance automatically, you can create CloudWatch alarms that monitor metrics such as CPU utilization, network traffic, or custom application metrics. When these metrics exceed or fall below specified thresholds, CloudWatch can trigger actions, such as terminating the unhealthy instance and replacing it with a new one.
 Difference between Latency Based Routing and Geo DNS:
