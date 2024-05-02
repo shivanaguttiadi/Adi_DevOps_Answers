@@ -37,10 +37,15 @@ Answer ➡️
 7.Elements of an AWS CloudFormation template:
 Answer ➙ 
  ➙ Resources: Defines the AWS resources to be created or managed.
+ 
  ➙ Parameters: Allows users to input custom values when creating or updating stacks.
+ 
  ➙ Outputs: Exports values from the stack for use by other stacks or applications.
+ 
  ➙ Conditions: Defines conditional logic for resource creation.
+ 
  ➙ Metadata: Provides additional information about the template.
+ 
  ➙ Transform: Applies AWS CloudFormation macros or other transformations to the template.
  
 8.What happens in CloudFormation when one of the resources in a stack cannot be created successfully:
