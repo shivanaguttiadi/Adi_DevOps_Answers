@@ -28,20 +28,25 @@ Answer ➡️  Route 53 achieves high availability and low latency through:
 *️ Health checks: Continuously monitors the health of endpoints and routes traffic away from unhealthy ones.
 *️ Traffic flow: Enables sophisticated routing policies to direct traffic based on various factors such as latency, geography, and endpoint health.
 
-Difference between a Domain and a Hosted Zone:
-Domain: A human-readable name that represents a website or application, such as example.com.
-Hosted Zone: A DNS database hosted on Route 53 that maps domain names to IP addresses. It contains records such as A, AAAA, CNAME, and MX records.
-Elements of an AWS CloudFormation template:
-Resources: Defines the AWS resources to be created or managed.
-Parameters: Allows users to input custom values when creating or updating stacks.
-Outputs: Exports values from the stack for use by other stacks or applications.
-Conditions: Defines conditional logic for resource creation.
-Metadata: Provides additional information about the template.
-Transform: Applies AWS CloudFormation macros or other transformations to the template.
-What happens in CloudFormation when one of the resources in a stack cannot be created successfully:
-CloudFormation rolls back the entire stack to its previous state, ensuring consistency and preventing partial deployments. It then provides details of the failure, allowing users to troubleshoot and address the issue.
+6.Difference between a Domain and a Hosted Zone:
+Answer ➡️ 
+*️ Domain: A human-readable name that represents a website or application, such as example.com.
+*️ Hosted Zone: A DNS database hosted on Route 53 that maps domain names to IP addresses. It contains records such as A, AAAA, CNAME, and MX records.
+
+7.Elements of an AWS CloudFormation template:
+Answer ➙ 
+ ➙ Resources: Defines the AWS resources to be created or managed.
+ ➙ Parameters: Allows users to input custom values when creating or updating stacks.
+ ➙ Outputs: Exports values from the stack for use by other stacks or applications.
+ ➙ Conditions: Defines conditional logic for resource creation.
+ ➙ Metadata: Provides additional information about the template.
+ ➙ Transform: Applies AWS CloudFormation macros or other transformations to the template.
+ 
+8.What happens in CloudFormation when one of the resources in a stack cannot be created successfully:
+
+Answer ➙ CloudFormation rolls back the entire stack to its previous state, ensuring consistency and preventing partial deployments. It then provides details of the failure, allowing users to troubleshoot and address the issue.
 Steps involved in a CloudFormation Solution:
-Design the architecture: Define the infrastructure components and their relationships.
-Create a template: Write a CloudFormation template describing the desired resources and their configuration.
-Launch the stack: Deploy the template to AWS, which creates the specified resources.
-Monitor and manage: Use AWS Management Console or APIs to monitor the stack's status, update resources, and handle any issues that arise.
+ ➙ Design the architecture: Define the infrastructure components and their relationships.
+ ➙ Create a template: Write a CloudFormation template describing the desired resources and their configuration.
+ ➙ Launch the stack: Deploy the template to AWS, which creates the specified resources.
+ ➙ Monitor and manage: Use AWS Management Console or APIs to monitor the stack's status, update resources, and handle any issues that arise.
