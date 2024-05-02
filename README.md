@@ -5,12 +5,15 @@
 Terminating an EC2 instance permanently deletes it along with its associated data. Once terminated, the instance cannot be restarted.
 
 2.Adding an existing instance to a new Auto Scaling group:
- Answer➡️  You cannot directly add an existing instance to a new Auto Scaling group. Auto Scaling groups manage the lifecycle of instances, including launching new ones and terminating old ones based on defined policies. To incorporate an existing instance into an Auto Scaling group, you typically create a new launch configuration or use an existing one, then update the Auto Scaling group to use that configuration. This process involves specifying the instance ID and other configuration details.
+ 
+ Answer ➡️  You cannot directly add an existing instance to a new Auto Scaling group. Auto Scaling groups manage the lifecycle of instances, including launching new ones and terminating old ones based on defined policies. To incorporate an existing instance into an Auto Scaling group, you typically create a new launch configuration or use an existing one, then update the Auto Scaling group to use that configuration. This process involves specifying the instance ID and other configuration details.
 
 3.Configuring CloudWatch to recover an EC2 instance:
-Answer : ➡️ we can configure CloudWatch to monitor the health of EC2 instances and trigger actions based on predefined alarms. To recover an EC2 instance automatically,we can create CloudWatch alarms that monitor metrics such as CPU utilization, network traffic, or custom application metrics. When these metrics exceed or fall below specified thresholds, CloudWatch can trigger actions, such as terminating the unhealthy instance and replacing it with a new one.
+
+Answer ➡️ we can configure CloudWatch to monitor the health of EC2 instances and trigger actions based on predefined alarms. To recover an EC2 instance automatically,we can create CloudWatch alarms that monitor metrics such as CPU utilization, network traffic, or custom application metrics. When these metrics exceed or fall below specified thresholds, CloudWatch can trigger actions, such as terminating the unhealthy instance and replacing it with a new one.
 
 4.Difference between Latency Based Routing and Geo DNS:
+
 Answer ➡️ Latency Based Routing: 
         Routes traffic to the AWS region with the lowest latency for the end user. 
         It measures the round-trip time (RTT) between the user and each region to determine the optimal routing.
@@ -19,10 +22,12 @@ Geo DNS:
        It maps users to specific servers or locations based on their geographic location.
 
 5.How Amazon Route 53 provides high availability and low latency:
-Answer : Route 53 achieves high availability and low latency through:
-Global anycast routing: Distributes DNS queries across multiple geographically dispersed servers to reduce latency and increase fault tolerance.
-Health checks: Continuously monitors the health of endpoints and routes traffic away from unhealthy ones.
-Traffic flow: Enables sophisticated routing policies to direct traffic based on various factors such as latency, geography, and endpoint health.
+
+Answer ➡️  Route 53 achieves high availability and low latency through:
+*️ Global anycast routing: Distributes DNS queries across multiple geographically dispersed servers to reduce latency and increase fault tolerance.
+*️ Health checks: Continuously monitors the health of endpoints and routes traffic away from unhealthy ones.
+*️ Traffic flow: Enables sophisticated routing policies to direct traffic based on various factors such as latency, geography, and endpoint health.
+
 Difference between a Domain and a Hosted Zone:
 Domain: A human-readable name that represents a website or application, such as example.com.
 Hosted Zone: A DNS database hosted on Route 53 that maps domain names to IP addresses. It contains records such as A, AAAA, CNAME, and MX records.
