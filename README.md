@@ -1,5 +1,6 @@
 ## DevOps Interview answers Below  ##
 1.Difference between stopping and terminating an EC2 instance:
+ 
  Answer ➡️ Stopping an EC2 instance halts its operation and preserves its data on the instance's root volume. You can start the instance again later.
 Terminating an EC2 instance permanently deletes it along with its associated data. Once terminated, the instance cannot be restarted.
 
