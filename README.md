@@ -24,6 +24,7 @@ Geo DNS:
 5.How Amazon Route 53 provides high availability and low latency:
 
 Answer ➡️  Route 53 achieves high availability and low latency through:
+
 *️ Global anycast routing: Distributes DNS queries across multiple geographically dispersed servers to reduce latency and increase fault tolerance.
 *️ Health checks: Continuously monitors the health of endpoints and routes traffic away from unhealthy ones.
 *️ Traffic flow: Enables sophisticated routing policies to direct traffic based on various factors such as latency, geography, and endpoint health.
@@ -46,6 +47,7 @@ Answer ➙
 
 Answer ➙ CloudFormation rolls back the entire stack to its previous state, ensuring consistency and preventing partial deployments. It then provides details of the failure, allowing users to troubleshoot and address the issue.
 Steps involved in a CloudFormation Solution:
+
  ➙ Design the architecture: Define the infrastructure components and their relationships.
  ➙ Create a template: Write a CloudFormation template describing the desired resources and their configuration.
  ➙ Launch the stack: Deploy the template to AWS, which creates the specified resources.
