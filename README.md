@@ -1,17 +1,16 @@
 ## DevOps Interview answers Below  ##
 1.Difference between stopping and terminating an EC2 instance:
-Answer : Stopping an EC2 instance halts its operation and preserves its data on the instance's root volume. You can start the instance again later.
+ Answer ➡️ Stopping an EC2 instance halts its operation and preserves its data on the instance's root volume. You can start the instance again later.
 Terminating an EC2 instance permanently deletes it along with its associated data. Once terminated, the instance cannot be restarted.
 
-2. Adding an existing instance to a new Auto Scaling group:
-Answer : You cannot directly add an existing instance to a new Auto Scaling group. Auto Scaling groups manage the lifecycle of instances, including launching new ones and terminating old ones based on defined policies. To incorporate an existing instance into an Auto Scaling group, you typically create a new launch configuration or use an existing one, then update the Auto Scaling group to use that configuration. This process involves specifying the instance ID and other configuration details.
+2.Adding an existing instance to a new Auto Scaling group:
+ Answer➡️  You cannot directly add an existing instance to a new Auto Scaling group. Auto Scaling groups manage the lifecycle of instances, including launching new ones and terminating old ones based on defined policies. To incorporate an existing instance into an Auto Scaling group, you typically create a new launch configuration or use an existing one, then update the Auto Scaling group to use that configuration. This process involves specifying the instance ID and other configuration details.
 
 3.Configuring CloudWatch to recover an EC2 instance:
-Answer : ➡️ we can configure CloudWatch to monitor the health of EC2 instances and trigger actions based on predefined alarms. To recover an EC2 instance automatically,  
- ➡️ we can create CloudWatch alarms that monitor metrics such as CPU utilization, network traffic, or custom application metrics. When these metrics exceed or fall below specified thresholds, CloudWatch can trigger actions, such as terminating the unhealthy instance and replacing it with a new one.
+Answer : ➡️ we can configure CloudWatch to monitor the health of EC2 instances and trigger actions based on predefined alarms. To recover an EC2 instance automatically,we can create CloudWatch alarms that monitor metrics such as CPU utilization, network traffic, or custom application metrics. When these metrics exceed or fall below specified thresholds, CloudWatch can trigger actions, such as terminating the unhealthy instance and replacing it with a new one.
 
 4.Difference between Latency Based Routing and Geo DNS:
-Answer : Latency Based Routing: 
+Answer ➡️ Latency Based Routing: 
         Routes traffic to the AWS region with the lowest latency for the end user. 
         It measures the round-trip time (RTT) between the user and each region to determine the optimal routing.
 Geo DNS: 
