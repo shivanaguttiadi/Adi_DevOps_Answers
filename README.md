@@ -134,3 +134,71 @@ Amazon Elastic Block Store (EBS) provides block-level storage volumes for use wi
 **Answer**:  
 Amazon ElastiCache is a fully managed, in-memory caching service that helps improve the performance and scalability of applications by caching frequently accessed data. By storing data in memory, ElastiCache reduces the latency associated with disk-based storage systems and offloads database and application servers, allowing them to handle higher request volumes. ElastiCache supports popular caching engines such as Redis and Memcached, providing flexibility and compatibility with existing applications.
 
+Certainly! Let's continue:
+
+### Question 21: What are the different AWS IAM categories that you can control?
+**Answer**:  
+You can control access to AWS resources through various IAM categories, including users, groups, roles, policies, and identity providers. These categories allow you to manage permissions and define who can access which resources within your AWS environment.
+
+### Question 22: What is the difference between an IAM role and an IAM user?
+**Answer**:  
+An IAM user represents a person or service that interacts with AWS resources and has its own security credentials (access key and secret key). An IAM role, on the other hand, is an entity that defines a set of permissions and can be assumed by IAM users, AWS services, or external identities. Roles are often used to delegate access to AWS resources and services without the need to share long-term credentials.
+
+### Question 23: What are the managed policies in AWS IAM?
+**Answer**:  
+Managed policies in AWS IAM are predefined sets of permissions that you can attach to IAM users, groups, or roles. These policies are maintained by AWS and cover common use cases, such as granting read-only access to specific services or allowing full access to resources within a particular service. Managed policies simplify permission management and help ensure consistent security configurations across your AWS environment.
+
+### Question 24: Can you give an example of an IAM policy and a policy summary?
+**Answer**:  
+Sure! Here's an example of an IAM policy:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::example-bucket/*"
+    },
+    {
+      "Effect": "Deny",
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::example-bucket/confidential/*"
+    }
+  ]
+}
+```
+
+This policy allows users to get objects from the "example-bucket" but denies access to objects in the "confidential" folder within the bucket.
+
+### Question 25: How does AWS IAM help your business?
+**Answer**:  
+AWS IAM helps businesses by providing centralized control over access to AWS resources. It allows organizations to manage user identities, permissions, and authentication mechanisms, ensuring that only authorized users and services have access to critical resources. IAM also enables security best practices such as least privilege access, multi-factor authentication, and identity federation, helping businesses maintain compliance and protect sensitive data.
+
+### Question 26: What is the relation between the Availability Zone and Region?
+**Answer**:  
+An Availability Zone (AZ) is an isolated location within a region that contains one or more data centers. A Region is a geographical area consisting of multiple Availability Zones. Each Availability Zone is designed to be independent of the others, with its own power, cooling, and networking infrastructure. Regions are interconnected through low-latency links, allowing for redundancy and fault tolerance.
+
+### Question 27: What is auto-scaling?
+**Answer**:  
+Auto-scaling is a feature of AWS that automatically adjusts the number of compute resources (such as EC2 instances) in response to changes in demand. It helps ensure that your application always has enough capacity to handle incoming traffic while minimizing costs by scaling down when demand decreases. Auto-scaling can be based on various metrics, such as CPU utilization, network traffic, or custom metrics defined by the user.
+
+### Question 28: What is geo-targeting in CloudFront?
+**Answer**:  
+Geo-targeting in CloudFront allows you to deliver content based on the geographic location of the viewer. You can configure CloudFront to serve different versions of your content or redirect users to different URLs based on their country or region. This feature is useful for delivering localized content, complying with regional regulations, or tailoring the user experience based on location.
+
+### Question 29: How do you upgrade or downgrade a system with near zero downtime?
+**Answer**:  
+To upgrade or downgrade a system with near-zero downtime, you can use techniques such as blue-green deployment, canary deployment, or rolling updates. These approaches involve deploying new versions of your application alongside the existing version, gradually shifting traffic to the new version while monitoring for any issues. By carefully managing the deployment process and validating changes in a controlled environment, you can minimize disruptions and ensure a smooth transition with minimal downtime.
+
+### Question 30: What are the tools and techniques that you can use in AWS to identify if you are paying more than you should be, and how to correct it?
+**Answer**:  
+AWS offers several tools and techniques to help you monitor and optimize costs:
+* AWS Cost Explorer: Provides visibility into your AWS spending and allows you to analyze costs by service, resource, or tag.
+*  AWS Budgets: Allows you to set custom budgets and receive alerts when your spending exceeds predefined thresholds.
+* AWS Trusted Advisor: Offers recommendations for optimizing costs, improving performance, and enhancing security based on your AWS usage.
+* Tagging: Tagging resources with metadata allows you to track and categorize costs, making it easier to identify opportunities for optimization.
+
+By regularly monitoring your usage, implementing cost-saving measures, and leveraging AWS cost management tools, you can ensure that you are only paying for the resources you need and optimize your AWS spending.
+
