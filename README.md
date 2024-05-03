@@ -643,3 +643,442 @@ In AWS, there are several types of storage services, including:
 - **Amazon Glacier**: Low-cost storage service for data archival and long-term backup.
 - **Amazon RDS (Relational Database Service) Storage**: Managed storage for RDS databases, including Aurora, MySQL, PostgreSQL, etc.
 
+Let's continue with your questions:
+
+### Question 101: Difference between S3 & Glacier?
+**Answer**:  
+- **Amazon S3 (Simple Storage Service)**: S3 is an object storage service designed for storing and retrieving any amount of data from anywhere on the web. It provides high durability, availability, and scalability for storing various types of data, from frequently accessed data to archival data. S3 is suitable for storing data that requires frequent access or real-time retrieval.
+- **Amazon Glacier**: Glacier is a low-cost storage service for data archival and long-term backup. It is optimized for data that is infrequently accessed and does not require real-time retrieval. Glacier offers significantly lower storage costs compared to S3 but has longer retrieval times, ranging from minutes to hours.
+
+### Question 102: Components of VPC?
+**Answer**:  
+The components of a VPC (Virtual Private Cloud) in AWS include:
+1. **Subnets**: Segments of IP address ranges within the VPC that are associated with availability zones.
+2. **Route Tables**: Define rules for routing traffic between subnets and to the internet.
+3. **Internet Gateway**: Allows communication between instances in the VPC and the internet.
+4. **Egress-Only Internet Gateway**: Allows outbound traffic from IPv6-enabled instances in the VPC to the internet.
+5. **NAT Gateway/NAT Instance**: Enables instances in private subnets to initiate outbound traffic to the internet.
+6. **VPC Peering**: Allows communication between VPCs within the same AWS region.
+7. **VPC Endpoints**: Enables private connectivity to AWS services from within the VPC without going through the internet gateway.
+8. **Security Groups**: Act as virtual firewalls to control inbound and outbound traffic to instances within the VPC.
+9. **Network Access Control Lists (NACLs)**: Control traffic at the subnet level by allowing or denying traffic based on IP addresses and port numbers.
+
+### Question 103: Difference between EC2 and ECS?
+**Answer**:  
+- **EC2 (Elastic Compute Cloud)**: EC2 is a web service provided by AWS that allows users to launch and manage virtual servers (instances) in the cloud. Users have full control over the operating system, applications, and configurations running on EC2 instances.
+- **ECS (Elastic Container Service)**: ECS is a fully managed container orchestration service provided by AWS for running Docker containers. It allows users to deploy, manage, and scale containerized applications using familiar Docker tools and APIs. ECS abstracts away the underlying infrastructure and automates container management tasks such as provisioning, scaling, and monitoring.
+
+### Question 104: What is DNS? Uses?
+**Answer**:  
+- **DNS (Domain Name System)**: DNS is a hierarchical decentralized naming system for computers, services, or other resources connected to the internet or a private network. It translates human-readable domain names (e.g., example.com) into numerical IP addresses (e.g., 192.0.2.1) used by networking equipment to route traffic.
+- **Uses of DNS**:
+  - Resolving domain names to IP addresses.
+  - Load balancing and failover.
+  - Email routing (MX records).
+  - Service discovery (SRV records).
+  - Security (DNSSEC).
+
+### Question 105: Why won’t you go with EC2 for installing a Database? Why RDS?
+**Answer**:  
+- **EC2 for Installing Database**: While EC2 provides flexibility and control over the underlying infrastructure, installing and managing a database on EC2 instances requires manual setup, configuration, patching, backups, and maintenance tasks. It requires significant expertise and effort to ensure high availability, scalability, and security.
+- **RDS (Relational Database Service)**: RDS is a fully managed database service provided by AWS that automates administrative tasks such as provisioning, patching, backups, and scaling. It offers built-in features for high availability, durability, security, and performance optimization. RDS allows you to focus on application development rather than managing database infrastructure.
+
+### Question 106: What is AWS?
+**Answer**:  
+- **AWS (Amazon Web Services)**: AWS is a comprehensive cloud computing platform provided by Amazon that offers a wide range of cloud services, including computing power (EC2), storage (S3), databases (RDS), networking (VPC), machine learning (SageMaker), analytics (Redshift), and more. AWS allows businesses to provision and manage IT infrastructure on-demand over the internet, eliminating the need for upfront capital investment and providing scalability, flexibility, and cost-effectiveness.
+
+### Question 107: What is a cloud?
+**Answer**:  
+- **Cloud**: In computing, the cloud refers to a network of remote servers hosted on the internet to store, manage, and process data, rather than a local server or personal computer. Cloud computing provides on-demand access to a shared pool of computing resources (such as servers, storage, databases, applications, and services) that can be rapidly provisioned and scaled with minimal management effort. It enables organizations to leverage scalable and flexible IT infrastructure without the need for upfront capital investment or long-term commitments.
+
+### Question 108: What is EC2?
+**Answer**:  
+- **EC2 (Elastic Compute Cloud)**: EC2 is a web service provided by AWS that allows users to launch and manage virtual servers (instances) in the cloud. EC2 instances provide resizable compute capacity in the form of virtual machines (VMs) that can run various operating systems and applications. Users have full control over the instance's configurations, including CPU, memory, storage, and networking, and can scale instances up or down based on demand.
+
+### Question 109: What is VPC?
+**Answer**:  
+- **VPC (Virtual
+
+ Private Cloud)**: VPC is a virtual network infrastructure provided by AWS that allows users to provision a logically isolated section of the AWS cloud where they can launch AWS resources in a defined set of IP addresses. VPC provides control over network settings, such as IP address ranges, subnets, route tables, internet gateways, and security settings, enabling users to create a secure and private environment for their AWS resources.
+
+### Question 110: What is AZ?
+**Answer**:  
+- **AZ (Availability Zone)**: AZ is a distinct location within an AWS Region composed of one or more data centers, with redundant power, networking, and connectivity. AZs are physically isolated from each other but are interconnected through low-latency links. AWS customers can deploy resources across multiple AZs to achieve high availability, fault tolerance, and resilience against failures. Each AZ is designed to be independent of other AZs to minimize the risk of simultaneous failures.
+
+Let's explore your questions:
+
+### Question 111: What is ELB?
+**Answer**:  
+- **ELB (Elastic Load Balancer)**: ELB is a managed load balancing service provided by AWS that automatically distributes incoming application or network traffic across multiple targets, such as EC2 instances, containers, or IP addresses, within one or more availability zones. ELB helps ensure high availability, fault tolerance, and scalability of applications by evenly distributing traffic and automatically scaling resources based on demand.
+
+### Question 112: What is VPC peering?
+**Answer**:  
+- **VPC Peering**: VPC Peering is a networking connection between two VPCs (Virtual Private Clouds) that enables communication between instances in the VPCs using private IP addresses. It allows resources in one VPC to access resources in another VPC as if they were within the same network. VPC Peering does not require a VPN connection, internet gateway, or NAT device, and traffic between the peered VPCs remains within the AWS network.
+
+### Question 113: What is the aim of VPC peering?
+**Answer**:  
+- **Aim of VPC Peering**: The aim of VPC Peering is to facilitate communication and resource sharing between VPCs within the same AWS account or different AWS accounts. It allows organizations to create a secure and private network architecture spanning multiple VPCs, enabling seamless connectivity and collaboration between applications and services deployed in different VPCs.
+
+### Question 114: Why use VPC peering, real-time example?
+**Answer**:  
+- **Real-time Example**: Suppose you have two VPCs in AWS, one hosting your web servers and the other hosting your database servers. By establishing VPC peering between these VPCs, your web servers can securely access the database servers using private IP addresses without exposing them to the public internet. This enhances security, reduces latency, and simplifies network management compared to accessing the database servers over the internet or through VPN connections.
+
+### Question 115: What is Security Group?
+**Answer**:  
+- **Security Group**: A Security Group is a virtual firewall that controls inbound and outbound traffic to and from EC2 instances, RDS instances, and other AWS resources within a VPC. It acts as a stateful firewall, allowing you to define rules that permit or deny traffic based on IP addresses, protocols, and port numbers. Security Groups provide a layer of security for your AWS resources by controlling access and protecting against unauthorized access attempts.
+
+### Question 116: What is CloudFront/CDN?
+**Answer**:  
+- **CloudFront/CDN**: CloudFront is a content delivery network (CDN) service provided by AWS that delivers static and dynamic web content, including images, videos, scripts, and APIs, to users with low latency and high transfer speeds. CloudFront caches content at edge locations around the world, reducing the load on origin servers and improving the performance of web applications for users located far from the origin. CDN enhances the scalability, reliability, and security of web applications by distributing content closer to end-users and protecting against DDoS attacks.
+
+### Question 117: What is a Lambda, and what is the use of it?
+**Answer**:  
+- **Lambda**: AWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers. You can upload your code to Lambda and define triggers (such as API Gateway requests, S3 events, or CloudWatch events) to execute the code in response to events. Lambda automatically scales your code in response to incoming requests and charges you only for the compute time consumed by your code. It is commonly used for building serverless applications, event-driven architectures, and automation tasks.
+
+### Question 118: What have you developed using Lambda?
+**Answer**:  
+As an AI developed by OpenAI, I don't have personal experiences or projects, but Lambda is commonly used for various tasks, including:
+- Processing and analyzing data from streaming sources (e.g., IoT devices, logs).
+- Performing real-time image and video processing.
+- Automating serverless workflows and orchestrating AWS services.
+- Building webhooks and APIs for serverless applications.
+- Implementing scheduled tasks and cron jobs for automation.
+
+### Question 119: What automation have you done with Lambda?
+**Answer**:  
+Lambda is commonly used for automating various tasks and workflows, including:
+- Automatically resizing images uploaded to an S3 bucket.
+- Processing and analyzing log data from CloudWatch Logs in real-time.
+- Triggering email notifications based on events detected by AWS services.
+- Archiving and deleting old files from S3 buckets based on lifecycle policies.
+- Executing database backups and maintenance tasks on a scheduled basis.
+
+### Question 120: What is CloudWatch?
+**Answer**:  
+- **CloudWatch**: CloudWatch is a monitoring and observability service provided by AWS that enables you to collect, monitor, and analyze metrics, logs, and events from AWS resources and applications. CloudWatch allows you to gain insights into the operational health, performance, and security of your AWS infrastructure and applications by providing dashboards, alarms, and automated actions based on predefined thresholds and events.
+
+Let's tackle your questions:
+
+### Question 121: What is CloudFormation?
+**Answer**:  
+- **CloudFormation**: CloudFormation is a service provided by AWS that allows you to define and provision AWS infrastructure as code using declarative templates. With CloudFormation, you can create, update, and delete a collection of AWS resources as a single unit called a stack. CloudFormation templates are written in JSON or YAML format and describe the desired state of the infrastructure, including EC2 instances, VPCs, RDS databases, IAM roles, and more.
+
+### Question 122: S3 lifecycle?
+**Answer**:  
+- **S3 Lifecycle**: S3 Lifecycle Management allows you to automatically manage the lifecycle of objects stored in S3 buckets by defining lifecycle policies. You can use lifecycle policies to transition objects between different storage classes (such as Standard, Standard-IA, Glacier, and Glacier Deep Archive) based on predefined rules, such as object age or size. Lifecycle policies can also be used to expire or delete objects after a certain period, reducing storage costs and ensuring compliance with data retention policies.
+
+### Question 123: What is the use of the IAM role?
+**Answer**:  
+- **IAM Role**: An IAM (Identity and Access Management) role is a set of permissions that define what actions and resources an entity (such as an AWS service, user, or application) can access within AWS. IAM roles are used to delegate access to AWS resources securely without sharing long-term credentials (such as access keys). IAM roles are commonly used to grant permissions to EC2 instances, Lambda functions, and other AWS services, allowing them to access other AWS services and resources on behalf of the user or application.
+
+### Question 124: How many subnets assign to the routing table?
+**Answer**:  
+- **Subnets Assigned to Routing Table**: In a VPC (Virtual Private Cloud) in AWS, each subnet must be associated with one and only one route table at a time. However, a route table can be associated with multiple subnets. This means that you can have multiple subnets within a VPC all using the same route table to determine where network traffic is routed.
+
+### Question 125: What is the static IP?
+**Answer**:  
+- **Static IP**: A static IP address is an IP address that remains fixed and does not change over time. Unlike dynamic IP addresses, which are assigned dynamically by a DHCP server and may change each time a device connects to the network, static IP addresses are manually configured and remain constant. Static IP addresses are commonly used for servers, routers, and network devices that require consistent and predictable network addresses for remote access, hosting services, or security configurations.
+
+### Question 126: How will you get access to private subnets?
+**Answer**:  
+- **Access to Private Subnets**: To access resources deployed in private subnets within a VPC, you typically use one of the following methods:
+  - **VPN Connection**: Establish a VPN (Virtual Private Network) connection between your on-premises network and the VPC to access resources securely over a private network.
+  - **Direct Connect**: Set up a dedicated network connection between your on-premises data center and the VPC using AWS Direct Connect for private, high-bandwidth connectivity.
+  - **Bastion Host or Jump Server**: Deploy a bastion host or jump server in a public subnet with SSH or RDP access, and then use it as a gateway to access resources in private subnets.
+
+### Question 127: Can you increase the size of the root volume without shutting down the instance?
+**Answer**:  
+- **Increasing Root Volume Size**: Yes, you can increase the size of the root volume (EBS volume) attached to an EC2 instance without shutting down the instance. However, the process may vary depending on the operating system and filesystem used on the root volume. For most Linux-based instances, you can resize the root volume while the instance is running by modifying the volume size in the AWS Management Console or using the AWS CLI. Once the volume is resized, you may need to resize the filesystem and extend the partition to utilize the additional space.
+
+### Question 128: What is ELB? How many types are there?
+**Answer**:  
+- **ELB (Elastic Load Balancer)**: ELB is a managed load balancing service provided by AWS that automatically distributes incoming application or network traffic across multiple targets, such as EC2 instances, containers, or IP addresses, within one or more availability zones. ELB helps ensure high availability, fault tolerance, and scalability of applications by evenly distributing traffic and automatically scaling resources based on demand.
+- **Types of ELB**:
+  1. **Classic Load Balancer**: Legacy load balancer that routes traffic based on either the application’s IP address or the application’s TCP port.
+  2. **Application Load Balancer (ALB)**: Layer 7 load balancer that operates at the application layer and allows routing traffic based on content of the request (HTTP headers, URL, or method) for more advanced load balancing scenarios.
+  3. **Network Load Balancer (NLB)**: Layer 4 load balancer that operates at the transport layer and provides ultra-low latency, high throughput, and support for static IP addresses.
+
+### Question 129: What is autoscaling?
+**Answer**:  
+- **Autoscaling**: Autoscaling is a feature provided by AWS that automatically adjusts the number of EC2 instances or other resources in response to changes in demand or traffic patterns. Autoscaling helps maintain application availability, optimize performance, and minimize costs by scaling resources up or down based on predefined scaling policies or metrics, such as CPU utilization, network traffic, or queue length. Autoscaling can be configured manually or using AWS Auto Scaling, which automatically scales resources based on target utilization levels or scheduled time intervals.
+
+### Question 130: What is hosted zone and uses of recordset?
+**Answer**:  
+- **Hosted Zone**:
+
+ A hosted zone is a container for DNS records that define how domain names are mapped to IP addresses and other DNS information. It is hosted on the AWS Route 53 DNS service and represents a collection of DNS records for a specific domain name (e.g., example.com). Hosted zones contain various types of DNS records, such as A records (IPv4 addresses), AAAA records (IPv6 addresses), CNAME records (aliases), MX records (mail servers), and more.
+- **Uses of Recordset**:
+  - **Routing Traffic**: DNS recordsets are used to route traffic to different endpoints based on routing policies, such as weighted routing, latency-based routing, geolocation routing, or failover routing.
+  - **Domain Management**: DNS recordsets are used to manage domain names, subdomains, and aliases associated with web applications, APIs, email servers, or other internet-facing services.
+  - **Service Discovery**: DNS recordsets are used for service discovery and endpoint resolution within a VPC or across multiple regions using Route 53 Resolver.
+
+Let's continue:
+
+### Question 131: How will you take backup for volumes?
+**Answer**:  
+- **Backup for Volumes**: To take backups of volumes (EBS volumes) in AWS, you can create snapshots of the volumes using the Amazon EBS service. Snapshots are point-in-time copies of volumes stored in Amazon S3, and they capture the data and configuration of the volume at the time the snapshot is created. You can create snapshots manually through the AWS Management Console, AWS CLI, or API, or automate the process using AWS Backup or custom scripts. Snapshots can be used to create new volumes, restore volumes, or migrate data between regions.
+
+### Question 132: How to encrypt the root volume?
+**Answer**:  
+- **Encrypting Root Volume**: To encrypt the root volume of an EC2 instance, you can enable encryption when launching a new instance or encrypt an existing unencrypted root volume. During instance launch, you can specify an encrypted Amazon Machine Image (AMI) or select an encryption key for the root volume. If you have an existing unencrypted root volume, you can create a snapshot of the volume, copy the snapshot with encryption enabled, and then create a new encrypted volume from the encrypted snapshot. Alternatively, you can use AWS Key Management Service (KMS) to create a Customer Master Key (CMK) and enable encryption for the root volume.
+
+### Question 133: How will access AS account?
+**Answer**:  
+- **Accessing AWS Account**: To access an AWS account, you need to sign in to the AWS Management Console using your AWS account credentials (username and password) or through programmatic access using AWS Command Line Interface (CLI), AWS SDKs, or API. Access to an AWS account is controlled by IAM (Identity and Access Management) policies, which define what actions and resources users or entities can access within the account. Users can be granted permissions individually or through IAM roles, groups, or policies.
+
+### Question 134: What is the subnet group in DB?
+**Answer**:  
+- **Subnet Group in DB**: In Amazon RDS (Relational Database Service), a subnet group is a collection of subnets (typically located in different availability zones) used for deploying RDS database instances. When creating an RDS instance, you must specify a subnet group to determine the VPC and subnets where the instance will be deployed. Subnet groups ensure high availability and fault tolerance by distributing database replicas across multiple availability zones within a VPC. RDS supports both public and private subnet groups, depending on whether the RDS instance requires public internet access.
+
+### Question 135: How do you connect to Windows instances?
+**Answer**:  
+- **Connecting to Windows Instances**: To connect to Windows instances (EC2 instances) in AWS, you can use Remote Desktop Protocol (RDP) to establish a remote desktop session with the instance. Here are the general steps:
+  1. Obtain the public IP address or public DNS name of the Windows instance.
+  2. Ensure that the security group associated with the instance allows inbound traffic on port 3389 (RDP).
+  3. Use a remote desktop client (such as Remote Desktop Connection on Windows or Remmina on Linux) to connect to the instance using the public IP address or DNS name and the administrator credentials (username and password) provided during instance launch.
+
+### Question 136: Port numbers of RDP, SSH, and HTTPS?
+**Answer**:  
+- **Port Numbers**:
+  - **RDP (Remote Desktop Protocol)**: Port 3389.
+  - **SSH (Secure Shell)**: Port 22.
+  - **HTTPS (Hypertext Transfer Protocol Secure)**: Port 443.
+These port numbers are used for remote access to servers or services over the network, with RDP for Windows, SSH for Linux/Unix, and HTTPS for secure web communication.
+
+### Question 137: What is the difference between EBS, S3, and EFS?
+**Answer**:  
+- **EBS (Elastic Block Store)**: EBS is a block-level storage service provided by AWS for EC2 instances. It provides persistent, high-performance block storage volumes that can be attached to EC2 instances as storage drives. EBS volumes are suitable for operating system disks, database storage, and application data that requires low-latency access and durability.
+- **S3 (Simple Storage Service)**: S3 is an object storage service provided by AWS for storing and retrieving any amount of data from anywhere on the web. S3 is highly durable, scalable, and cost-effective for storing large volumes of unstructured data, such as files, documents, images, and backups.
+- **EFS (Elastic File System)**: EFS is a fully managed NFS (Network File System) file storage service provided by AWS for EC2 instances. It provides scalable, shared file storage that can be accessed concurrently from multiple EC2 instances within the same VPC. EFS is suitable for shared file systems, content repositories, and data analytics workloads that require file-level access and scalability.
+
+### Question 138: What type of data do you store in S3 and EBS?
+**Answer**:  
+- **Data Types**:
+  - **S3**: S3 is suitable for storing a wide range of data types, including files, documents, images, videos, backups, logs, archives, and static
+
+ website content. It is commonly used for object storage, data lakes, backup and recovery, content distribution, and analytics.
+  - **EBS**: EBS is suitable for storing block-level data, such as operating system disks, application data, databases, logs, and temporary storage. It provides persistent, high-performance storage volumes that can be attached to EC2 instances as storage drives.
+
+### Question 139: Replication S3?
+**Answer**:  
+- **Replication in S3**: S3 replication is a feature that allows you to replicate objects stored in one S3 bucket (source bucket) to another S3 bucket (destination bucket) in the same region or a different region. S3 replication can be used to create backups, disaster recovery copies, or cross-region data replication for compliance or latency optimization. You can configure S3 replication using S3 replication rules and policies to specify which objects to replicate, replication destinations, and replication options (such as encryption and deletion).
+
+### Question 140: Why use events in CloudWatch in AWS?
+**Answer**:  
+- **Use of Events in CloudWatch**: Events in CloudWatch allow you to monitor and respond to changes or events in your AWS environment by triggering automated actions or workflows. You can use CloudWatch Events to capture events from various AWS services, such as EC2, S3, Lambda, and CloudFormation, and route them to targets, such as Lambda functions, SQS queues, SNS topics, or Kinesis streams. Common use cases for CloudWatch Events include:
+  - Automation and orchestration of AWS resources based on events or triggers.
+  - Scheduled tasks and cron jobs for periodic actions.
+  - Real-time monitoring and alerting for security, compliance, and operational events.
+  - Integration with third-party applications and services for event-driven workflows.
+
+Let's delve into your questions:
+
+### Question 141: What is the difference between VPC level security and system level security?
+**Answer**:  
+- **VPC Level Security**: VPC (Virtual Private Cloud) level security refers to security measures applied at the network level to control traffic entering and leaving the VPC. This includes configuring security groups and network access control lists (NACLs) to filter traffic based on IP addresses, protocols, and ports.
+- **System Level Security**: System level security, on the other hand, pertains to security measures implemented within individual EC2 instances or other resources deployed within the VPC. This involves setting up firewalls, installing security patches, configuring user access controls, and implementing encryption to protect the operating system, applications, and data running on the instance.
+
+### Question 142: If you lost the PEM file, then how will you connect to EC2?
+**Answer**:  
+- If you've lost the PEM file used to authenticate SSH connections to an EC2 instance, you may still be able to access the instance using other methods, such as:
+  1. **Using Session Manager**: If Session Manager is configured on the instance, you can access the instance through the AWS Management Console or AWS CLI without needing SSH keys.
+  2. **Recover the PEM file**: If possible, try to recover the PEM file from backups, key management systems, or other authorized users who may have a copy.
+  3. **Attach a New Key Pair**: If you have access to the AWS Management Console or CLI and have appropriate permissions, you can create a new key pair and attach it to the instance. However, this requires stopping the instance, which may cause downtime.
+
+### Question 143: What IAM Role and policy?
+**Answer**:  
+- **IAM Role**: An IAM (Identity and Access Management) role is an AWS identity with permission policies that determine what actions the role can perform and what AWS resources it can access. IAM roles are not associated with a specific user or group and are instead assumed by entities such as EC2 instances, Lambda functions, or users federated through identity providers.
+- **Policy**: An IAM policy is a document that defines permissions and access controls for AWS resources. Policies are attached to IAM users, groups, or roles to grant or deny access to specific AWS actions and resources. Policies are written in JSON format and can be custom-created or selected from a set of managed policies provided by AWS.
+
+### Question 144: How will run lambda, and where will you configure lambda?
+**Answer**:  
+- **Running Lambda**: To run a Lambda function, you need to upload your code to AWS Lambda and configure triggers that will invoke the function. You can configure Lambda functions through the AWS Management Console, AWS CLI, or SDKs.
+- **Configuration**: The configuration of a Lambda function includes specifying the function code, runtime environment, memory allocation, timeout settings, IAM role for execution permissions, and trigger sources (such as API Gateway, S3 events, CloudWatch events, or scheduled events).
+
+### Question 145: How does Lambda run on scheduling and event-based?
+**Answer**:  
+- **Scheduled Execution**: Lambda functions can be configured to run on a schedule using CloudWatch Events. You can create a rule in CloudWatch Events to trigger the Lambda function at specific intervals or cron expressions.
+- **Event-Based Execution**: Lambda functions can also be invoked in response to events generated by AWS services, such as S3 object uploads, DynamoDB table updates, SNS notifications, or custom events published to CloudWatch Events. Lambda automatically scales to handle incoming events and executes the function code in response to each event.
+
+### Question 146: What is CloudWatch? Have you configured any custom metrics?
+**Answer**:  
+- **CloudWatch**: CloudWatch is a monitoring and observability service provided by AWS that collects and tracks metrics, logs, and events from AWS resources and applications. CloudWatch allows you to gain insights into the operational health, performance, and security of your AWS infrastructure by providing dashboards, alarms, and automated actions based on predefined thresholds and events.
+- **Custom Metrics**: Yes, custom metrics can be configured in CloudWatch to monitor specific application or business metrics that are not natively provided by AWS services. Custom metrics can be published to CloudWatch using the AWS CLI, SDKs, or API, and then visualized on CloudWatch dashboards or used to create alarms and automate actions.
+
+### Question 147: What are the metrics available on your dashboard?
+**Answer**:  
+- The metrics available on the CloudWatch dashboard may vary depending on the AWS services and resources you are monitoring. However, common metrics that you may find on the dashboard include:
+  - CPU utilization
+  - Network traffic
+  - Disk I/O
+  - Request counts
+  - Error rates
+  - Latency
+  - Billing metrics
+
+### Question 148: How do you configure CPU Utilization on your dashboard?
+**Answer**:  
+- To configure CPU Utilization on your CloudWatch dashboard, you can follow these steps:
+  1. Sign in to the AWS Management Console and navigate to the CloudWatch service.
+  2. In the CloudWatch console, choose "Dashboards" from the navigation pane.
+  3. Choose "Create dashboard" and give your dashboard a name.
+  4. In the dashboard editor, choose "Add widget."
+  5. Select the "Line" or "Number" widget type.
+  6. Choose the desired AWS service (such as EC2) from the dropdown menu.
+  7. Select the specific CPU utilization metric you want to monitor (e.g., "CPUUtilization").
+  8. Configure any additional settings, such as period, statistics, and axis options.
+  9. Choose "Create widget" to add the CPU utilization metric to your dashboard.
+  10. Repeat the process to add additional widgets or metrics as needed.
+
+Certainly! Let's continue:
+
+### Question 149: How can I attach SSL for the S3 bucket?
+**Answer**:  
+- SSL (Secure Sockets Layer) is not directly attached to S3 buckets. However, you can enable SSL encryption for data in transit when accessing S3 buckets using HTTPS (HTTP Secure). Here's how you can ensure SSL encryption for S3:
+  1. **Use HTTPS**: When accessing S3 resources (e.g., downloading/uploading objects), always use HTTPS URLs instead of HTTP. This ensures that data transferred between your client and S3 is encrypted in transit.
+  2. **Bucket Policies**: You can configure bucket policies to enforce the use of HTTPS by denying requests made over HTTP. This ensures that all requests to your S3 bucket are encrypted.
+  3. **CloudFront**: If you're using CloudFront as a content delivery network (CDN) in front of your S3 bucket, you can configure CloudFront to require HTTPS for viewer requests. This encrypts data in transit between clients and CloudFront, as well as between CloudFront and S3.
+  4. **AWS SDKs and CLI**: When using AWS SDKs or CLI to interact with S3, ensure that your client configurations enforce HTTPS connections.
+
+### Question 150: S3 bucket has a policy for only read-only, but you have full access for you?
+**Answer**:  
+- If the S3 bucket has a policy allowing only read-only access, but you have full access, it's likely that you have permissions granted through another IAM entity (such as an IAM user or role) or a different policy.
+- Review your IAM permissions: Check if you have attached IAM policies or are a member of IAM groups or roles that grant full access to the S3 bucket. Your permissions may override the bucket policy.
+- Access through other means: Ensure that you're not accessing the bucket using AWS credentials with higher privileges than what's defined in the bucket policy.
+- Check other policies: Review all IAM policies attached to your user, group, or role to identify any policies that grant full access to S3 resources.
+- Debugging: Use AWS CloudTrail logs to track actions taken on the S3 bucket and identify the source of full access permissions.
+
+Let's proceed with your questions:
+
+### Question 151: What is CDN?
+**Answer**:  
+- **CDN (Content Delivery Network)**: A CDN is a distributed network of servers deployed in multiple data centers across the globe. Its purpose is to deliver web content to users more efficiently by caching content closer to the user's location. When a user requests content, the CDN serves it from the nearest edge server, reducing latency and improving performance. CDNs are commonly used to deliver web pages, images, videos, and other static assets to users worldwide.
+
+### Question 152: How will you attach a policy for IAM users by group or individual?
+**Answer**:  
+- To attach a policy to IAM users by group or individual, follow these steps:
+  1. Sign in to the AWS Management Console and navigate to the IAM service.
+  2. In the navigation pane, choose "Groups" or "Users" depending on whether you want to attach the policy to a group or an individual user.
+  3. Select the group or user to which you want to attach the policy.
+  4. In the "Permissions" tab, choose "Attach policies."
+  5. Search for the policy you want to attach, select it from the list, and then choose "Attach policy."
+
+### Question 153: Have you used any tool for creating customized AMIs?
+**Answer**:  
+- Yes, various tools can be used for creating customized Amazon Machine Images (AMIs), such as:
+  - **AWS Systems Manager (SSM)**: SSM allows you to automate the creation of AMIs using Automation documents and runbooks.
+  - **HashiCorp Packer**: Packer is an open-source tool that allows you to create machine images for multiple platforms, including AWS.
+  - **AWS CLI and SDKs**: You can use AWS CLI commands or SDKs to automate the process of creating AMIs programmatically.
+  - **Third-party tools**: Some third-party tools offer GUI-based interfaces for creating and managing custom AMIs with additional features and functionalities.
+
+### Question 154: What is connection draining?
+**Answer**:  
+- **Connection Draining**: Connection draining is a feature of Elastic Load Balancing (ELB) that ensures in-flight requests are completed before terminating instances that are deregistered or unhealthy. When connection draining is enabled, the load balancer stops sending new requests to the instances being removed from service and allows existing requests to complete within a specified timeout period. This helps maintain the availability and consistency of the application by gracefully handling the removal of instances without disrupting ongoing user sessions or transactions.
+
+### Question 155: How does your ELB share traffic?
+**Answer**:  
+- **ELB (Elastic Load Balancer)**: ELB distributes incoming application or network traffic across multiple targets, such as EC2 instances, containers, or IP addresses, within one or more availability zones. ELB uses various load balancing algorithms to share traffic among targets:
+  - **Round Robin**: Distributes traffic evenly across all registered targets in a circular manner.
+  - **Least Outstanding Requests**: Routes traffic to the target with the fewest outstanding requests.
+  - **Least Connections**: Routes traffic to the target with the fewest active connections.
+  - **IP Hash**: Routes traffic based on the source IP address hash, ensuring that requests from the same client are consistently sent to the same target.
+
+### Question 156: What is auto-scaling?
+**Answer**:  
+- **Auto-Scaling**: Auto-scaling is a feature provided by AWS that automatically adjusts the number of EC2 instances or other resources in response to changes in demand or traffic patterns. Auto-scaling helps maintain application availability, optimize performance, and minimize costs by scaling resources up or down based on predefined scaling policies or metrics, such as CPU utilization, network traffic, or queue length.
+
+### Question 157: Types of Load Balancers and example?
+**Answer**:  
+- **Types of Load Balancers**:
+  1. **Classic Load Balancer (ELB)**: Legacy load balancer that operates at the transport layer (Layer 4) and routes traffic based on IP address and TCP port. Example: ELB Classic.
+  2. **Application Load Balancer (ALB)**: Layer 7 load balancer that operates at the application layer and routes traffic based on content of the request (HTTP headers, URL, method). Example: ALB.
+  3. **Network Load Balancer (NLB)**: Layer 4 load balancer that operates at the transport layer and provides ultra-low latency and high throughput. Example: NLB.
+
+### Question 158: What is the runtime of Lambda?
+**Answer**:  
+- The maximum execution time (runtime) of a single Lambda invocation is 15 minutes (900 seconds).
+
+### Question 159: What is the memory size of Lambda?
+**Answer**:  
+- The memory size of a Lambda function can be configured between 128 MB and 10,240 MB (10 GB) in 64 MB increments.
+
+### Question 160: How can I run Lambda for more time?
+**Answer**:  
+- If your Lambda function requires more time than the maximum execution time of 15 minutes, you can consider breaking down the task into smaller units of work or optimizing the function's code to execute faster. Alternatively, you can offload long-running tasks to other AWS services or external systems, such as AWS Step Functions, AWS Batch, or EC2 instances, and invoke them asynchronously from the Lambda function.
+
+Let's continue with your questions:
+
+### Question 161: By using Lambda, what automation have you performed in your project?
+**Answer**:  
+- In my project, we utilized Lambda for various automation tasks, including:
+  - Scheduled tasks for periodic data processing or cleanup jobs.
+  - Real-time event processing, such as processing S3 object uploads or DynamoDB stream records.
+  - Automation of infrastructure management tasks, like starting/stopping EC2 instances or EBS snapshots.
+  - Integration with other AWS services for building serverless applications, such as processing messages from SQS queues or triggering workflows with Step Functions.
+
+### Question 162: Why are you not using boto3 for infrastructure provisioning?
+**Answer**:  
+- While boto3 is a powerful Python library for interacting with AWS services programmatically, we opted to use Lambda for infrastructure provisioning in certain scenarios due to its serverless nature and event-driven architecture. Lambda allows us to execute code in response to events or triggers without managing servers or infrastructure, making it suitable for lightweight automation tasks or event-driven workflows. Additionally, Lambda integrates seamlessly with other AWS services, enabling us to build fully serverless applications with minimal operational overhead.
+
+### Question 163: What are the modules you used in Lambda?
+**Answer**:  
+- In Lambda functions, we commonly use various Python modules to facilitate different functionalities, such as:
+  - **boto3**: AWS SDK for Python, used for interacting with AWS services.
+  - **json**: For handling JSON data serialization and deserialization.
+  - **requests**: For making HTTP requests to external APIs or services.
+  - **datetime**: For working with date and time objects.
+  - **logging**: For logging messages and debugging information.
+  - **os**: For interacting with the operating system environment variables or file system.
+  - **gzip, zipfile**: For compressing or decompressing files.
+  - **csv**: For handling CSV file operations.
+
+### Question 164: Have you created an SNS topic?
+**Answer**:  
+- Yes, in our project, we have created SNS (Simple Notification Service) topics for sending notifications or alerts to subscribers based on various events or triggers. SNS topics are used for pub/sub messaging and can deliver messages to multiple subscribers, including email, SMS, HTTP endpoints, Lambda functions, SQS queues, and more.
+
+### Question 165: In your VPC, all IPs are finished, and you have a requirement for resources. How do you provision it?
+**Answer**:  
+- In a scenario where all available IP addresses in the VPC are exhausted, and there's a requirement for additional resources, you can consider the following options:
+  1. **Increase CIDR Block**: Modify the CIDR block of the VPC to allocate more IP addresses. This may involve resizing the VPC subnet or creating additional subnets with larger CIDR blocks.
+  2. **Use Secondary CIDR Blocks**: Add secondary CIDR blocks to the VPC to expand the available IP address range without modifying the existing CIDR block.
+  3. **Implement VPC Peering**: If additional IP addresses are needed for inter-VPC communication, establish VPC peering connections with other VPCs that have available IP address space.
+  4. **Consider IPv6**: If IPv6 is enabled for the VPC, use IPv6 addresses to supplement IPv4 address exhaustion.
+  5. **Implement NAT Gateway or Instance**: If the IP address shortage is due to instances requiring internet access, consider using NAT Gateway or NAT instances to manage outbound internet traffic and conserve IP addresses.
+
+### Question 166: What is access key and secret key?
+**Answer**:  
+- Access Key and Secret Key are credentials used to authenticate and authorize access to AWS services programmatically, such as through APIs, SDKs, or command-line tools. Specifically:
+  - **Access Key**: It is a unique identifier (ID) assigned to an IAM user, group, or role that grants access to AWS resources. Access keys consist of an Access Key ID and a Secret Access Key.
+  - **Secret Key**: It is a cryptographic key associated with the Access Key ID and used for signing requests to AWS services to prove the identity of the requester. Secret keys should be kept confidential and never shared publicly.
+
+### Question 167: What is CORS in S3?
+**Answer**:  
+- **CORS (Cross-Origin Resource Sharing)**: CORS is a mechanism that allows web browsers to make cross-origin HTTP requests from web applications hosted on one domain to resources hosted on another domain. In the context of S3, CORS configuration allows you to specify which origins (domains) are allowed to access resources in your S3 bucket, what HTTP methods are allowed, and what headers can be included in requests and responses. This helps prevent cross-origin security errors and enables secure data sharing between web applications and S3 buckets.
+
+### Question 168: What type of ELB did you use in the project?
+**Answer**:  
+- In our project, we utilized the Application Load Balancer (ALB) for routing traffic to multiple targets, such as EC2 instances, containers, or Lambda functions, based on the content of the request (HTTP headers, URL, method). ALB offers advanced routing capabilities, supports multiple listeners and target groups, and integrates seamlessly with other AWS services, making it suitable for modern application architectures and microservices deployments.
+
+### Question 169: Difference between EBS and NFS?
+**Answer**:  
+- **EBS (Elastic Block Store)**:
+  - EBS provides persistent block-level storage volumes that can be attached to EC2 instances.
+  - It offers features such as snapshotting, encryption, and different volume types (e.g., SSD, HDD).
+  - EBS volumes are accessed over the network and provide low-latency, high-throughput storage for EC2 instances.
+
+- **NFS (Network File System)**:
+  - NFS is a distributed file system protocol that allows clients to access files over a network as if they were stored locally.
+  - It is used for sharing files and directories between multiple servers or clients in a network.
+  - NFS does not provide block-level storage like EBS; instead, it operates at the file level, allowing clients to access and modify files directly.
+
+### Question 170: Different types of storage in S3?
+**Answer**:  
+- **Types of Storage in S3**:
+  1. **Standard Storage (S3)**: Offers high durability, availability, and low latency access to frequently accessed data.
+  2. **Standard-
+
+IA (S3 Intelligent-Tiering)**: Automatically moves objects between two access tiers (frequent access and infrequent access) based on usage patterns, optimizing costs.
+  3. **One Zone-IA**: Similar to Standard-IA but stores data in a single availability zone, reducing costs.
+  4. **Glacier**: Provides long-term archival storage with lower costs but longer retrieval times.
+  5. **Glacier Deep Archive**: Offers the lowest cost storage option for data archival with retrieval times of 12 hours or more.
+
