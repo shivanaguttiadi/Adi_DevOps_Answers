@@ -101,7 +101,7 @@ These answers provide insights into configuring Jenkins jobs, integrating tools 
 20. **The flow of SonarQube? Why do we use it?**
     - **Answer:** The flow of SonarQube involves analyzing source code for bugs, vulnerabilities, code smells, and security vulnerabilities. SonarQube provides feedback on code quality and helps teams identify areas for improvement, enforce coding standards, and prevent technical debt accumulation. It is used to ensure that software projects maintain high-quality standards throughout the development lifecycle.
    
-    - 21. **What is the use of quality gates in SonarQube?**
+21. **What is the use of quality gates in SonarQube?**
     - **Answer:** Quality gates in SonarQube are sets of predefined conditions that must be met before code can be considered for promotion to the next stage in the software development lifecycle. They help enforce quality standards and ensure that only code meeting specific criteria, such as code coverage, code duplication, and severity of issues, is allowed to progress.
 
 22. **Suppose we give a 30% quality, I want you to define in quality gates?**
@@ -146,7 +146,7 @@ These answers provide insights into configuring Jenkins jobs, integrating tools 
 30. **What is the use of Maven in Jenkins?**
     - **Answer:** Maven is a build automation tool used primarily for Java projects. In Jenkins, Maven is commonly used as a build tool to compile source code, run tests, package applications, and manage project dependencies. Jenkins integrates with Maven to automate the build process and facilitate continuous integration and delivery workflows for Java projects.
    
-    - 31. **Where can you find the particular error in logs?**
+31. **Where can you find the particular error in logs?**
     - **Answer:** You can find specific errors in logs by examining the Jenkins build console output or by accessing the build logs stored on the Jenkins server. Additionally, Jenkins may generate log files in specific directories, such as the Jenkins workspace or the Jenkins logs directory, where you can search for error messages.
 
 32. **Explain Jenkins CI/CD?**
