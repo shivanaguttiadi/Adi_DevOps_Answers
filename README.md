@@ -324,6 +324,31 @@ server and getting any response but by using telnet<ip> on port 23 it's working 
 49. What are some best practices for using Jenkins?
 50. How do you configure Jenkins agents?
 
+** Here 20 Azure DevOps-related CI/CD questions:
+
+1. What is Azure DevOps, and how does it facilitate CI/CD?
+2. What are the key components of Azure DevOps?
+3. Explain the concept of continuous integration (CI) in Azure DevOps.
+4. How does Azure Pipelines support continuous integration and continuous delivery (CI/CD) workflows?
+5. What are the benefits of using Azure Repos for version control in CI/CD pipelines?
+6. Describe the role of Azure Artifacts in CI/CD pipelines.
+7. How does Azure DevOps enable automated testing as part of CI/CD?
+8. What are the different types of build agents available in Azure Pipelines?
+9. Explain the use of YAML pipelines in Azure DevOps for defining CI/CD workflows.
+10. How do you trigger builds and releases in Azure Pipelines?
+11. What are deployment environments in Azure Pipelines, and how are they used?
+12. Describe the process of setting up release gates in Azure DevOps for automated deployment approvals.
+13. How does Azure DevOps handle rollbacks in case of deployment failures?
+14. What is the purpose of service connections in Azure DevOps, and how are they configured?
+15. How do you manage secrets and sensitive information securely in Azure DevOps pipelines?
+16. Explain the concept of variable groups in Azure DevOps, and when would you use them?
+17. What are the deployment strategies supported by Azure DevOps for releasing applications?
+18. How does Azure DevOps integrate with other Azure services for building and deploying cloud-native applications?
+19. Describe the role of Azure DevOps in infrastructure as code (IaC) and configuration management.
+20. What are some best practices for implementing CI/CD pipelines using Azure DevOps?
+
+These questions cover various aspects of CI/CD pipelines, version control, testing, deployment, and best practices in Azure DevOps.
+
 # Git
 1. Differences between git rebase and git merge?
 2. Git workflow?
