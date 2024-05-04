@@ -267,13 +267,13 @@ Certainly! Here are more scenario-based Ansible scripts:
 The Ansible-related questions and Answers:
 
 1. **How to deploy to 100 servers at a time?**
-   Answer: You can deploy to 100 servers at a time using Ansible's parallel execution capabilities. By defining your inventory file to include all 100 servers and configuring Ansible to execute tasks concurrently, you can deploy to multiple servers simultaneously, speeding up the deployment process.
+ **  Answer:** You can deploy to 100 servers at a time using Ansible's parallel execution capabilities. By defining your inventory file to include all 100 servers and configuring Ansible to execute tasks concurrently, you can deploy to multiple servers simultaneously, speeding up the deployment process.
 
 2. **Have you worked on Ansible modules?**
-   Answer: Yes, I have worked extensively with Ansible modules. Ansible modules are reusable units of code that perform specific tasks on target systems. They enable automation of various infrastructure operations such as package installation, service management, file manipulation, and more.
+   **Answer**: Yes, I have worked extensively with Ansible modules. Ansible modules are reusable units of code that perform specific tasks on target systems. They enable automation of various infrastructure operations such as package installation, service management, file manipulation, and more.
 
 3. **How do you configure Ansible in Jenkins?**
-   Answer: To configure Ansible in Jenkins, you can use the Ansible plugin for Jenkins. This plugin allows you to define Ansible playbooks as build steps in Jenkins jobs. You can specify the location of your Ansible playbook, inventory file, and any required credentials directly in the Jenkins job configuration.
+   **Answer**: To configure Ansible in Jenkins, you can use the Ansible plugin for Jenkins. This plugin allows you to define Ansible playbooks as build steps in Jenkins jobs. You can specify the location of your Ansible playbook, inventory file, and any required credentials directly in the Jenkins job configuration.
 
 4. **By using Ansible, how to deploy in Jenkins?**
    Answer: To deploy using Ansible in Jenkins, you can create a Jenkins job that executes an Ansible playbook as a build step. In the Jenkins job configuration, specify the location of your Ansible playbook, inventory file, and any required credentials. When the Jenkins job is triggered, Ansible will be invoked to perform the deployment tasks defined in the playbook.
