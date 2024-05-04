@@ -624,6 +624,7 @@ ssh username@hostname
 You will be prompted to enter the password for the specified username, and once authenticated, you will have access to the remote system's command line.
 
 61. What are the default ports used for SMTP, DNS, FTP, DHCP, SSH, and Squid?
+
 Ans: The default ports used for common services in Linux are:
 SMTP (Simple Mail Transfer Protocol): Port 25
 DNS (Domain Name System): Port 53
@@ -631,4 +632,205 @@ FTP (File Transfer Protocol): Ports 20 (Data Transfer) and 21 (Control Connectio
 DHCP (Dynamic Host Configuration Protocol): Ports 67 (DHCP server) and 68 (DHCP client)
 SSH (Secure Shell): Port 22
 Squid (Proxy Server): Port 3128
+
+Of course! Here are 20 more Linux-related questions along with their answers:
+
+62. **What is SSH and how does it work?**
+   - SSH, or Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network. It provides a secure channel over an insecure network by using encryption. SSH works by establishing a secure connection between two systems, typically a client and a server, allowing secure access to the server's shell or executing commands remotely.
+
+63. **Explain the difference between SSH and Telnet.**
+   - Telnet is an unencrypted protocol, while SSH is encrypted. Telnet sends data in plain text, making it vulnerable to eavesdropping, whereas SSH encrypts the data, providing a secure communication channel. Therefore, SSH is considered more secure than Telnet for remote access.
+
+64. **What is a cron job in Linux?**
+   - A cron job is a scheduled task that is executed at specified intervals by the cron daemon. Users can schedule repetitive tasks, such as running scripts or commands, performing system maintenance, or generating reports, by adding entries to the crontab file.
+
+65. **How do you create a cron job in Linux?**
+   - To create a cron job, you need to edit the crontab file using the `crontab -e` command, then add a new line specifying the schedule and the command to be executed. For example, to run a script named `backup.sh` every day at 3 AM, you would add the following line to the crontab file:
+     ```
+     0 3 * * * /path/to/backup.sh
+     ```
+
+66. **Explain the difference between soft links and hard links.**
+   - Soft links, or symbolic links, are pointers to the target file or directory, while hard links are direct references to the target inode. Soft links can point to files or directories on different filesystems, while hard links must be on the same filesystem as the target. Deleting the target of a soft link leaves the link broken, whereas a hard link retains the data even if the target is deleted.
+
+67. **What is grep in Linux?**
+   - `grep` is a command-line utility used to search for patterns in text files. It stands for "global regular expression print." It searches for a specified pattern within one or more files and prints lines containing that pattern.
+
+68. **How do you use grep to search for a pattern in a file?**
+   - To search for a pattern in a file using `grep`, you would use the following syntax:
+     ```
+     grep pattern filename
+     ```
+     Replace `pattern` with the text you want to search for and `filename` with the name of the file you want to search in.
+
+69. **Explain the 'ls' command in Linux.**
+   - The `ls` command is used to list files and directories in a directory. It displays information such as file permissions, ownership, size, and modification date.
+
+70. **What is the difference between 'ls' and 'ls -l' commands?**
+   - The `ls` command lists files and directories in a directory in a simple format, while `ls -l` lists files in a long format, displaying detailed information such as permissions, ownership, size, and modification date.
+
+71. **How do you list hidden files in Linux?**
+   - To list hidden files in Linux, you can use the `-a` option with the `ls` command:
+     ```
+     ls -a
+     ```
+
+72. **Explain the 'top' command in Linux.**
+   - The `top` command is used to display system processes in real-time. It provides a dynamic view of system performance, CPU usage, memory usage, and running processes. 
+
+73. **How do you kill a process in Linux?**
+   - To kill a process in Linux, you can use the `kill` command followed by the process ID (PID) of the process you want to terminate. For example:
+     ```
+     kill PID
+     ```
+
+74. **What is the 'df' command in Linux?**
+   - The `df` command is used to display information about disk space usage on filesystems. It shows the amount of disk space used, available, and total space on each filesystem.
+
+75. **How do you check disk space usage in Linux?**
+   - To check disk space usage in Linux, you can use the `df` command without any options:
+     ```
+     df
+     ```
+
+76. **What is the 'du' command in Linux?**
+   - The `du` command is used to estimate file and directory space usage. It displays the disk space used by each file and directory in the specified location.
+
+77. **How do you check file permissions in Linux?**
+   - To check file permissions in Linux, you can use the `ls` command with the `-l` option:
+     ```
+     ls -l filename
+     ```
+
+78. **What are environment variables in Linux?**
+   - Environment variables are dynamic values that affect the behavior of processes and programs on a Linux system. They store information about the system environment and are used by applications to determine settings, paths, and other configuration parameters.
+
+79. **How do you set environment variables in Linux?**
+   - To set environment variables in Linux, you can use the `export` command followed by the variable name and value:
+     ```
+     export VARIABLE=value
+     ```
+
+80. **What is the purpose of the 'echo' command in Linux?**
+   - The `echo` command is used to display text or variables on the terminal. It is commonly used in shell scripts to print messages or display
+
+ Certainly! Here are 20 scenario-based questions along with their answers:
+
+81. **Scenario:** You have a directory named "documents" containing several text files. How would you search for a specific word "keyword" within all text files in the directory and its subdirectories?
+   - **Answer:** You can use the `grep` command with the `-r` option to search recursively through all files in the directory and its subdirectories. The command would be:
+     ```
+     grep -r "keyword" documents/
+     ```
+
+82. **Scenario:** You want to create a compressed archive of a directory named "project" and all its contents. How would you create a gzip compressed file named "project.tar.gz"?
+   - **Answer:** You can use the `tar` command to create a tar archive of the directory and then use `gzip` to compress it. The command would be:
+     ```
+     tar -czvf project.tar.gz project/
+     ```
+
+83. **Scenario:** You need to monitor CPU and memory usage in real-time on your Linux system. What command would you use?
+   - **Answer:** You can use the `top` command to monitor CPU and memory usage in real-time. Simply type `top` in the terminal to launch the interactive process viewer.
+
+84. **Scenario:** You want to list all installed packages on your Linux system. How would you accomplish this task?
+   - **Answer:** Depending on your Linux distribution, you can use package management commands such as `dpkg -l` for Debian-based systems or `rpm -qa` for Red Hat-based systems to list all installed packages.
+
+85. **Scenario:** You have a file named "data.txt" and you want to count the number of lines it contains. How would you do this using the command line?
+   - **Answer:** You can use the `wc` (word count) command with the `-l` option to count the number of lines in a file. The command would be:
+     ```
+     wc -l data.txt
+     ```
+
+86. **Scenario:** You want to rename a file named "oldfile.txt" to "newfile.txt". How would you accomplish this task?
+   - **Answer:** You can use the `mv` (move) command to rename a file. The command would be:
+     ```
+     mv oldfile.txt newfile.txt
+     ```
+
+87. **Scenario:** You need to find the size of a directory named "images" and all its subdirectories. How would you calculate the total disk space usage?
+   - **Answer:** You can use the `du` (disk usage) command with the `-sh` options to calculate the total size of the directory and its contents in a human-readable format. The command would be:
+     ```
+     du -sh images/
+     ```
+
+88. **Scenario:** You have a file named "backup.tar.gz" that you want to extract to a directory named "backup". How would you extract the contents of the compressed archive?
+   - **Answer:** You can use the `tar` command with the `-xzvf` options to extract the contents of a gzip-compressed tar archive. The command would be:
+     ```
+     tar -xzvf backup.tar.gz -C backup/
+     ```
+
+89. **Scenario:** You want to view the contents of a file named "logfile.txt" in real-time as new data is being written to it. How would you accomplish this task?
+   - **Answer:** You can use the `tail` command with the `-f` option to follow the output of a file in real-time. The command would be:
+     ```
+     tail -f logfile.txt
+     ```
+
+90. **Scenario:** You need to transfer a file named "report.txt" from your local machine to a remote server using SSH. How would you accomplish this task?
+   - **Answer:** You can use the `scp` (secure copy) command to securely transfer files between hosts over SSH. The command would be:
+     ```
+     scp report.txt username@remotehost:/path/to/destination/
+     ```
+
+91. **Scenario:** You want to find and delete all files with a ".tmp" extension in the current directory and its subdirectories. How would you accomplish this task?
+   - **Answer:** You can use the `find` command with the `-name` option to search for files with a specific extension and the `-delete` action to delete them. The command would be:
+     ```
+     find . -type f -name "*.tmp" -delete
+     ```
+
+92. **Scenario:** You have a shell script named "backup.sh" that you want to make executable. How would you change the permissions of the file to allow execution?
+   - **Answer:** You can use the `chmod` (change mode) command to change the permissions of a file. To make a file executable, you would use the following command:
+     ```
+     chmod +x backup.sh
+     ```
+
+93. **Scenario:** You need to find all files in the current directory that have been modified in the last 24 hours. How would you accomplish this task?
+
+
+   - **Answer:** You can use the `find` command with the `-mtime` option to search for files based on their modification time. The command would be:
+     ```
+     find . -type f -mtime -1
+     ```
+
+94. **Scenario:** You want to list all processes running on your system along with their process IDs (PIDs). How would you accomplish this task?
+   - **Answer:** You can use the `ps` (process status) command with the `-e` option to list all processes running on the system. The command would be:
+     ```
+     ps -e
+     ```
+
+95. **Scenario:** You need to kill a process with a specific PID. How would you terminate the process?
+   - **Answer:** You can use the `kill` command followed by the PID of the process you want to terminate. For example:
+     ```
+     kill PID
+     ```
+
+96. **Scenario:** You want to check the network connectivity between your Linux machine and a remote host using the ping command. How would you perform this task?
+   - **Answer:** You can use the `ping` command followed by the IP address or domain name of the remote host. For example:
+     ```
+     ping remotehost.com
+     ```
+
+97. **Scenario:** You need to find out which process is listening on a specific port, such as port 80. How would you determine this information?
+   - **Answer:** You can use the `netstat` command with the `-tuln` options to display a list of listening ports and the processes associated with them. For example:
+     ```
+     netstat -tuln | grep :80
+     ```
+
+98. **Scenario:** You want to monitor network traffic in real-time on a specific network interface, such as eth0. How would you accomplish this task?
+   - **Answer:** You can use the `tcpdump` command followed by the name of the network interface you want to monitor. For example:
+     ```
+     tcpdump -i eth0
+     ```
+
+99. **Scenario:** You have a firewall rule that you want to add to your Linux system to allow incoming traffic on port 443 (HTTPS). How would you add this rule using the `iptables` command?
+   - **Answer:** You can use the `iptables` command to add a firewall rule. For example, to allow incoming traffic on port 443, you would use the following command:
+     ```
+     iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+     ```
+
+100. **Scenario:** You want to check the DNS resolution of a domain name using the `nslookup` command. How would you perform this task?
+    - **Answer:** You can use the `nslookup` command followed by the domain name you want to look up. For example:
+      ```
+      nslookup example.com
+
+More details if go throgh the below URL      ```
+https://www.almabetter.com/bytes/articles/linux-interview-questions
 
