@@ -252,3 +252,105 @@ Sure, here are five more scenario-based questions and answers related to Docker:
 10. **Scenario 10: Docker Health Checks**
     **Question:** Your Docker containers need to perform health checks to ensure they are functioning correctly. How would you implement health checks in Docker containers?
     **Answer:** Docker supports health checks for monitoring the status of containers and determining whether they are healthy or not. You can specify a health check command in a Dockerfile using the `HEALTHCHECK` instruction, which Docker will run periodically to assess the container's health. Additionally, you can define health check parameters such as intervals, timeouts, and retries to customize the health check behavior.
+
+**Diffrent type applications Docker files:
+Certainly! Here are Dockerfile scenarios tailored for different application types:
+
+1. **Python Web Application (Flask)**
+
+   ```Dockerfile
+   # Use official Python image as base
+   FROM python:3.9-slim
+   
+   # Set working directory in the container
+   WORKDIR /app
+   
+   # Copy requirements.txt to container
+   COPY requirements.txt .
+   
+   # Install dependencies
+   RUN pip install --no-cache-dir -r requirements.txt
+   
+   # Copy application code to container
+   COPY . .
+   
+   # Expose port
+   EXPOSE 5000
+   
+   # Command to run the application
+   CMD ["python", "app.py"]
+   ```
+
+2. **Node.js Web Application (Express)**
+
+   ```Dockerfile
+   # Use official Node.js image as base
+   FROM node:14-alpine
+   
+   # Set working directory in the container
+   WORKDIR /app
+   
+   # Copy package.json and package-lock.json to container
+   COPY package*.json ./
+   
+   # Install dependencies
+   RUN npm ci
+   
+   # Copy application code to container
+   COPY . .
+   
+   # Expose port
+   EXPOSE 3000
+   
+   # Command to run the application
+   CMD ["node", "server.js"]
+   ```
+
+3. **Java Web Application (Spring Boot)**
+
+   ```Dockerfile
+   # Use official OpenJDK image as base
+   FROM openjdk:11-jdk-slim
+   
+   # Set working directory in the container
+   WORKDIR /app
+   
+   # Copy application JAR to container
+   COPY target/myapp.jar ./
+   
+   # Expose port
+   EXPOSE 8080
+   
+   # Command to run the application
+   CMD ["java", "-jar", "myapp.jar"]
+   ```
+
+4. **.NET Core Web Application**
+
+   ```Dockerfile
+   # Use official .NET Core image as base
+   FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+   
+   # Set working directory in the container
+   WORKDIR /app
+   
+   # Copy project files to container
+   COPY *.csproj ./
+   
+   # Restore NuGet packages
+   RUN dotnet restore
+   
+   # Copy application code to container
+   COPY . .
+   
+   # Build the application
+   RUN dotnet publish -c Release -o out
+   
+   # Create runtime image
+   FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS runtime
+   WORKDIR /app
+   COPY --from=build /app/out ./
+   EXPOSE 80
+   ENTRYPOINT ["dotnet", "myapp.dll"]
+   ```
+**
