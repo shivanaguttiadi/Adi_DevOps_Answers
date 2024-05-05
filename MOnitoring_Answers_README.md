@@ -89,3 +89,18 @@
 
 30. **How do these monitoring tools support compliance requirements and auditing in regulated industries?**
     - **Answer:** Monitoring tools like CloudWatch, Prometheus, Grafana, and Splunk offer features for logging, auditing, and reporting that help organizations meet compliance requirements such as PCI DSS, HIPAA, GDPR, and SOC 2. They provide audit trails, access controls, encryption, and tamper-evident logging to ensure data integrity, confidentiality, and accountability.
+31. **Which monitoring tools are used in the project?**
+   - **Answer:** In our project, we primarily use Prometheus for metrics collection, Grafana for visualization and dashboards, and ELK (Elasticsearch, Logstash, Kibana) stack for log management and analysis.
+
+32. **How does Grafana monitoring work?**
+   - **Answer:** Grafana connects to various data sources such as Prometheus, Graphite, Elasticsearch, etc., to query and retrieve time-series data. It then visualizes this data using customizable dashboards and panels, allowing users to monitor and analyze metrics, logs, and other data sources in real-time.
+
+33. **Explain about Prometheus.**
+   - **Answer:** Prometheus is an open-source monitoring and alerting toolkit originally built at SoundCloud. It collects metrics from instrumented targets by scraping HTTP endpoints at regular intervals. These metrics are stored in a time-series database and can be queried, visualized, and alerted on using Prometheus's query language (PromQL) and alerting rules.
+
+34. **How to export CloudWatch Logs to Grafana?**
+   - **Answer:** CloudWatch Logs can be exported to Grafana using the CloudWatch Logs data source plugin for Grafana. First, configure the plugin with the necessary AWS credentials and region. Then, create a new data source in Grafana and select "CloudWatch Logs" as the type. Finally, configure the log group and query parameters to visualize the logs in Grafana dashboards.
+
+35. **What is ELK?**
+   - **Answer:** ELK is an acronym for Elasticsearch, Logstash, and Kibana. It is a popular open-source stack used for centralized logging and log analytics. Elasticsearch is a distributed search and analytics engine used for storing and indexing log data. Logstash is a data processing pipeline that ingests, processes, and transforms log data before sending it to Elasticsearch. Kibana is a visualization and dashboarding tool used for querying and analyzing log data stored in Elasticsearch.
+
