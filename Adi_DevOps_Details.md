@@ -1,5 +1,15 @@
-**The Below URL Details 
-**
+**The Below URL Details **
+
+**✈️ AWS Cloud Quetiond and Answers**
+**✈️ Terraform Quetiond and Answers**
+**✈️ CICD  Quetiond and Answers**
+**✈️ Git Quetiond and Answers**
+**✈️ Kububenetes Quetiond and Answers**
+**✈️ Ansible Quetiond and Answers**
+**✈️ Linux Quetiond and Answers**
+**✈️ Scripting Quetiond and Answers**
+
+
 **About AWS**
 
  Amazon Web Services, which is a cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage options, database management, machine learning, networking, and more, all delivered over the internet. AWS enables businesses to access scalable and reliable infrastructure without the need for physical hardware investments.
