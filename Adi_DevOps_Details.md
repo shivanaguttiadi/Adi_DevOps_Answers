@@ -113,16 +113,22 @@ Continuous Integration (CI) refers to the practice of frequently integrating cod
 
 Continuous Deployment (CD), on the other hand, focuses on automating the deployment of validated code changes to production or other environments. CD pipelines automate the process of deploying application updates, infrastructure changes, and configurations, enabling teams to deliver software changes quickly and reliably.
 
-Jenkins and Azure DevOps are popular CI/CD tools used to implement and manage CI/CD pipelines:
+**Jenkins and Azure DevOps are popular CI/CD tools used to implement and manage CI/CD pipelines:**
 
-Jenkins: Jenkins is an open-source automation server that supports building, deploying, and automating projects. It provides a wide range of plugins for integrating with various tools and technologies, making it highly customizable. Jenkins allows users to define CI/CD pipelines as code using Jenkinsfile, enabling version control and collaboration.
-Azure DevOps: Azure DevOps is a cloud-based collaboration platform provided by Microsoft, offering a suite of tools for software development, including version control, agile planning, CI/CD, and more. Azure DevOps provides built-in CI/CD capabilities with pipelines that support building, testing, and deploying applications to Azure or other cloud platforms.
+**Jenkins:** 
+
+Jenkins is an open-source automation server that supports building, deploying, and automating projects. It provides a wide range of plugins for integrating with various tools and technologies, making it highly customizable. Jenkins allows users to define CI/CD pipelines as code using Jenkinsfile, enabling version control and collaboration.
+
+**Azure DevOps:** 
+
+Azure DevOps is a cloud-based collaboration platform provided by Microsoft, offering a suite of tools for software development, including version control, agile planning, CI/CD, and more. Azure DevOps provides built-in CI/CD capabilities with pipelines that support building, testing, and deploying applications to Azure or other cloud platforms.
 
 For CICD, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for CICD-related discussions.
 
 **CICD pipelines Quetions and Answers▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md))
+**Jenkins_cicd ANswers**[**click here**] ▶️(https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md))
 
+**Azure-DevOps_cicd ANswers**[**click here**] ▶️(https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/Azure_DevOps_Answers_README.md)
 -------------------------------------------------------------------------------------------------------------------
 
 
