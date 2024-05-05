@@ -23,6 +23,8 @@
 
 **✈️ Scripting Quetions and Answers✈️**
 
+**✈️ Security Quetions and Answers✈️**
+
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 
@@ -292,8 +294,8 @@ DevOps security refers to the practices, processes, and tools used to integrate 
 
 8. **Threat Modeling and Risk Assessment**: DevOps security involves conducting threat modeling and risk assessments to identify potential security risks and prioritize mitigation efforts. By understanding the threat landscape, teams can proactively address security vulnerabilities and minimize exposure to threats.
 
-For DevOps Security, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for DevOps Security-related discussions.
+For Security, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Security-related discussions.
 
-**Devops Security Quetions and Answers▶️**
+**Security Quetions and Answers▶️**
 
 **Bash_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/new/DevOps_Security)
