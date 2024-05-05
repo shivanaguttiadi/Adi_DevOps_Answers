@@ -21,8 +21,7 @@
 
 
 **AWS** 
-![Uploading image.png…]()
-
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/e3cf0af5-2d7a-491f-91bb-0e88288c8f41)
 
  Amazon Web Services, which is a cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage options, database management, machine learning, networking, and more, all delivered over the internet. AWS enables businesses to access scalable and reliable infrastructure without the need for physical hardware investments.
 
