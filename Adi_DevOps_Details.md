@@ -262,6 +262,7 @@ These simple scripts demonstrate the basic syntax and functionality of Python an
 For Scripting, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Scripting-related discussions.
 
 **Scripting Quetions and Answers▶️**
+
 **Bash_Scripting**[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Bash_Scripting_READM.me)
 
 **Python_Scripting**[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Python_Scripting_README.md)
