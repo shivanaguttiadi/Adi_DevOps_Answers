@@ -263,6 +263,6 @@ For Scripting, you can find interview questions and answers on platforms like Gi
 
 **Scripting Quetions and Answers▶️**
 
-**Bash_Scripting**[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Bash_Scripting_READM.me)
+**Bash_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Bash_Scripting_READM.me)
 
-**Python_Scripting**[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Python_Scripting_README.md)
+**Python_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Python_Scripting_README.md)
