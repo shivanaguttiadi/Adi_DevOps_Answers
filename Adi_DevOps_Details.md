@@ -299,5 +299,7 @@ For Security, you can find interview questions and answers on platforms like Git
 
 **Security Quetions and Answers▶️**
 
-**Security_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Security/Security_Answers.README.md)--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Security_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Security/Security_Answers.README.md)-
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
