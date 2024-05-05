@@ -270,6 +270,8 @@ For Scripting, you can find interview questions and answers on platforms like Gi
 
 **Python_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Python_Scripting_README.md)
 
+-------------------------------------------------------------------------------------------------------------------
+
 
 **DevOps security**
 
@@ -298,7 +300,7 @@ For Security, you can find interview questions and answers on platforms like Git
 
 **Security Quetions and Answers▶️**
 
-**Bash_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/new/DevOps_Security)
+**Security_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/new/DevOps_Security)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
