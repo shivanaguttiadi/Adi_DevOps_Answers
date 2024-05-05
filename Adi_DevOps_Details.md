@@ -36,6 +36,7 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 
 **AWS Cloud Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/blob/DevOps_Answers_Linux/Linux_Answers_README.md)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
