@@ -146,6 +146,7 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 
 **Kubernetes**
 -------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/3624c709-a2d3-49c5-8860-c42ce4da5737)
 
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. Here's a brief explanation of Kubernetes:
 
@@ -178,6 +179,8 @@ For Kubernetes, you can find interview questions and answers on platforms like G
 
 **Ansible**
 -------------------------------------------------------------------------------------------------------------------
+
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/ff422095-a45b-4d63-b854-b4ca115f283f)
 
 Ansible is an open-source automation tool used for configuration management, application deployment, and orchestration. It simplifies the process of managing IT infrastructure by allowing users to automate repetitive tasks such as provisioning servers, configuring software, and deploying applications.
 
