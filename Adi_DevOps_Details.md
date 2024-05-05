@@ -1,12 +1,19 @@
 **The Below URL Details **
 
 **✈️ AWS Cloud Quetiond and Answers**
+
 **✈️ Terraform Quetiond and Answers**
+
 **✈️ CICD  Quetiond and Answers**
+
 **✈️ Git Quetiond and Answers**
+
 **✈️ Kububenetes Quetiond and Answers**
+
 **✈️ Ansible Quetiond and Answers**
+
 **✈️ Linux Quetiond and Answers**
+
 **✈️ Scripting Quetiond and Answers**
 
 
