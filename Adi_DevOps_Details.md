@@ -122,6 +122,7 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/0cf0a10b-00ee-4a16-82f2-d2d590e84b12)
+
 Git is a distributed version control system widely used in software development to track changes in source code during the development process. It allows multiple developers to collaborate on projects efficiently and ensures that changes are properly managed and tracked. Here's a brief explanation of Git:
 
 Git: Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It was created by Linus Torvalds in 2005 to manage the development of the Linux kernel and has since become one of the most popular version control systems in the world.
@@ -138,11 +139,11 @@ Git: Git is a free and open-source distributed version control system designed t
 
 5. Secure and Reliable: Git provides strong cryptographic authentication and integrity checking to ensure that the repository remains secure and reliable.
 
-GitHub: GitHub is a web-based hosting service for Git repositories that provides additional features such as issue tracking, pull requests, code review, and project management tools. It is widely used by developers and organizations to host open-source and private projects and collaborate with other developers.
+**GitHub:** GitHub is a web-based hosting service for Git repositories that provides additional features such as issue tracking, pull requests, code review, and project management tools. It is widely used by developers and organizations to host open-source and private projects and collaborate with other developers.
 
-GitLab: GitLab is another web-based Git repository manager similar to GitHub, offering features such as continuous integration, issue tracking, and code review. It provides self-hosted and cloud-hosted options for hosting Git repositories and is popular among organizations that prefer to host their repositories on-premises.
+**GitLab:** GitLab is another web-based Git repository manager similar to GitHub, offering features such as continuous integration, issue tracking, and code review. It provides self-hosted and cloud-hosted options for hosting Git repositories and is popular among organizations that prefer to host their repositories on-premises.
 
-Bitbucket: Bitbucket is a Git-based version control platform owned by Atlassian, offering features similar to GitHub and GitLab. It provides both cloud-based and self-hosted options for hosting Git repositories and is often used by teams that use other Atlassian products like Jira and Confluence.
+**Bitbucket:** Bitbucket is a Git-based version control platform owned by Atlassian, offering features similar to GitHub and GitLab. It provides both cloud-based and self-hosted options for hosting Git repositories and is often used by teams that use other Atlassian products like Jira and Confluence.
 
 For Git, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Git-related discussions.
 
