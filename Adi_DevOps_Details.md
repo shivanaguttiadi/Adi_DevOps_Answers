@@ -97,7 +97,7 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 **CICD :**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md)
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/assets/143313733/7cfba2af-6ce6-43ba-afdc-5ece7eef629f)
 
 CI/CD stands for Continuous Integration/Continuous Deployment, which is a set of practices and principles aimed at automating the process of software delivery. It encompasses both Continuous Integration (CI) and Continuous Deployment (CD), which are integral parts of modern software development workflows.
 
@@ -113,7 +113,7 @@ Azure DevOps: Azure DevOps is a cloud-based collaboration platform provided by M
 For CICD, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for CICD-related discussions.
 
 **CICD pipelines Quetions and Answers▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md))
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -147,7 +147,7 @@ Bitbucket: Bitbucket is a Git-based version control platform owned by Atlassian,
 For Git, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Git-related discussions.
 
 **Git scm Quetions and Answers▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Git)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Git/Git_Answers_README.md)
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -193,7 +193,7 @@ Kubernetes: Kubernetes is a powerful container orchestration tool that helps man
 For Kubernetes, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Kubernetes-related discussions.
 
 ** Kubernetes Quetions and Answers▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Kubernetes)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Kubernetes/Kubernetes_Answers_README.md)
 
 -------------------------------------------------------------------------------------------------------------------
 
