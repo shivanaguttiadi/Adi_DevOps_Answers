@@ -18,6 +18,11 @@ Here are smart answers to the provided questions:
 
  **Answer:**  Bash scripts have played a crucial role in managing processes and system resources effectively. For instance, I've developed scripts to monitor CPU and memory usage, automate the start and stop of services, and schedule tasks using cron jobs. By utilizing commands like `ps`, `top`, and `free`, I've gained insights into system performance and optimized resource allocation.
 
+6. How do you determine which types of shells you have available on your system? 
+You can do this with the following command: 
+
+cat /etc/shells  
+
 7. **Experience using bash scripts to automate repetitive tasks:**
 
 **Answer:** Bash scripts have been invaluable for automating repetitive tasks and improving productivity. For example, I've created scripts to automate software installations, configure environment variables, and perform routine maintenance tasks. By encapsulating sequences of commands into reusable scripts, I've minimized manual effort and ensured consistency across environments.
