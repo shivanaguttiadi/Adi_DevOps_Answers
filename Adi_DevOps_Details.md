@@ -42,7 +42,7 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 -------------------------------------------------------------------------------------------------------------------
 
 
-**Linux :**
+**LINUX :**
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/aa463264-4b53-4796-9c75-8c504ec7dfa6)
@@ -151,7 +151,7 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 
 -------------------------------------------------------------------------------------------------------------------
 
-**DOcker**
+**DOCKER**
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/assets/143313733/3f5494ce-e548-4556-8e6a-583311687acb)
@@ -166,7 +166,8 @@ For Docker, you can find interview questions and answers on platforms like GitHu
 -------------------------------------------------------------------------------------------------------------------
 
 
-**Kubernetes :**
+**KUBERENETES:**
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/3624c709-a2d3-49c5-8860-c42ce4da5737)
 
@@ -174,8 +175,8 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 
 Kubernetes: Kubernetes is a powerful container orchestration tool that helps manage containerized applications in a clustered environment. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF). Kubernetes provides a platform-agnostic framework for automating the deployment, scaling, and management of containerized applications, allowing developers to focus on building and shipping software without worrying about the underlying infrastructure.
 
-**Key Features of Kubernetes:
-**
+**Key Features of Kubernetes:**
+
 1. Container Orchestration: Kubernetes automates the deployment, scaling, and management of containerized applications across a cluster of nodes. It abstracts away the underlying infrastructure, allowing developers to define their application's desired state and let Kubernetes handle the rest.
 
 2. Service Discovery and Load Balancing: Kubernetes provides built-in mechanisms for service discovery and load balancing, allowing containers to communicate with each other and distribute traffic across multiple instances of an application.
@@ -217,3 +218,50 @@ For Ansible, you can find interview questions and answers on platforms like GitH
 
 
 -------------------------------------------------------------------------------------------------------------------
+
+
+**Scriptings :**
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/assets/143313733/dcf84091-4645-42d6-9980-d88cdcc78ea2)
+
+Scripting is fundamental in modern computing, enabling users to automate tasks, customize workflows, and integrate systems seamlessly. It empowers developers, system administrators, and data analysts to perform complex operations efficiently and consistently. By leveraging scripting languages and their libraries, organizations can streamline processes, improve productivity, and adapt to evolving requirements in diverse domains, from system administration to web development and beyond.
+
+utomation: Scripts automate repetitive tasks, reducing manual effort and saving time.
+System Administration: Scripts manage and configure systems, perform routine maintenance, and deploy software.
+Data Processing: Scripts analyze, manipulate, and transform data, facilitating tasks like data cleaning, aggregation, and reporting.
+Application Development: Scripts assist in testing, building, deploying, and maintaining software applications.
+Web Development: Scripts power server-side logic in web applications, handling user requests, data processing, and database interactions.
+Monitoring and Alerting: Scripts monitor system health, log files, and network activity, generating alerts or notifications as needed.
+Task Scheduling: Scripts schedule automated tasks to run at specified times or intervals, such as backups, updates, and batch processing.
+
+Certainly! Here are basic scripts for Python and Bash explained in a smart way:
+
+Python Script:
+```python
+# This Python script prints "Hello, World!" to the console
+print("Hello, World!")
+```
+Explanation:
+- This Python script consists of a single line of code.
+- The `print()` function is used to display the message "Hello, World!" to the console.
+- Python scripts are commonly used for various purposes, including automation, data analysis, and web development.
+
+Bash Script:
+```bash
+#!/bin/bash
+# This Bash script prints "Hello, World!" to the console
+echo "Hello, World!"
+```
+Explanation:
+- This Bash script begins with the shebang `#!/bin/bash`, which indicates that it should be interpreted by the Bash shell.
+- The `echo` command is used to output the message "Hello, World!" to the console.
+- Bash scripts are often used for automating tasks, system administration, and writing command-line utilities.
+
+These simple scripts demonstrate the basic syntax and functionality of Python and Bash, two commonly used scripting languages in software development and system administration.
+
+For Scripting, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Scripting-related discussions.
+
+**Scripting Quetions and Answers▶️**
+**Bash_Scripting**[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Bash_Scripting_READM.me)
+
+**Python_Scripting**[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Python_Scripting_README.md)
