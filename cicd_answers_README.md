@@ -309,24 +309,3 @@ Answer 10: Builds and releases in Azure Pipelines can be triggered manually by u
 
 Answer 11: Deployment environments in Azure Pipelines represent the target environments where applications are deployed, such as development, staging, and production environments. Each environment can have its own configuration and deployment strategy, allowing teams to deploy applications consistently across different stages of the development lifecycle.
 
-Answer 12: Release gates in Azure DevOps are automated checks or conditions that must be satisfied before a deployment can proceed. They can include approval gates, quality gates, and automated tests, and they help ensure that deployments are safe and reliable by validating key criteria before promoting changes to production.
-
-Answer 13: Azure DevOps handles rollbacks in case of deployment failures by providing built-in support for deployment history, manual interventions, and automated rollback strategies. Teams can define rollback mechanisms in their release pipelines to revert changes and restore previous application versions in case of issues.
-
-Answer 14: Service connections in Azure DevOps are secure endpoints that provide authentication and authorization for accessing external services and resources. They are used to establish connections between Azure DevOps and external systems such as Azure, GitHub, Docker, and more, enabling seamless integration and automation in CI/CD pipelines.
-
-Answer 15: Secrets and sensitive information in Azure DevOps pipelines can be managed securely using variable groups, Azure Key Vault integration, and built-in pipeline secrets. Variable groups allow teams to store and manage secrets centrally, while Azure Key Vault integration provides a secure and scalable solution for managing cryptographic keys, secrets, and certificates.
-
-Answer 16: Variable groups in Azure DevOps are reusable sets of variables that can be shared across multiple pipelines and environments. They are typically used to store sensitive information such as API keys, connection strings, and passwords, allowing teams to centralize and manage their secrets securely.
-
-Answer 17: Azure DevOps supports various deployment strategies for releasing applications, including rolling deployments, blue-green deployments, canary releases, and feature flag rollouts. Each deployment strategy has its own advantages and trade-offs, and teams can choose the most appropriate strategy based on their requirements and risk tolerance.
-
-Answer 18: Azure DevOps integrates with other Azure services such as Azure Monitor, Azure Security Center, Azure Policy, and Azure Resource Manager to provide end-to-end visibility, security, and governance for CI/CD pipelines. It also integrates with third-party tools and technologies through REST APIs, webhooks, and marketplace extensions, enabling teams to customize and extend their CI/CD workflows as needed.
-
-Answer 19: The Jenkins Pipeline is a suite of plugins that allows teams to define their CI/CD workflows as code using a Groovy-based domain-specific language (
-
-DSL). It provides a powerful and flexible way to define complex build and release pipelines, including support for parallelism, stages, conditions, and integrations with external tools and services.
-
-Answer 20: Securing a Jenkins instance involves implementing various security measures such as authentication, authorization, role-based access control (RBAC), and plugin management. Jenkins provides built-in features for securing user accounts, restricting access to sensitive information, and enforcing security policies, as well as integrating with external identity providers and security plugins for additional protection.
-
-These answers cover a range of topics related to Azure DevOps CI/CD pipelines, including build automation, release management, testing, security, and integration with other tools and services.
