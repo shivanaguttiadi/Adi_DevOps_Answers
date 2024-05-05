@@ -15,6 +15,8 @@
 
 **✈️ Git Quetions and Answers**
 
+**✈️ Docker Quetions and Answers**
+
 **✈️ Kububenetes Quetions and Answers**
 
 **✈️ Ansible Quetions and Answers**
@@ -95,7 +97,7 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 **CICD :**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/f23606c0-debc-4881-a691-50c75ce76dd9)
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md)
 
 CI/CD stands for Continuous Integration/Continuous Deployment, which is a set of practices and principles aimed at automating the process of software delivery. It encompasses both Continuous Integration (CI) and Continuous Deployment (CD), which are integral parts of modern software development workflows.
 
@@ -149,6 +151,18 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 
 -------------------------------------------------------------------------------------------------------------------
 
+**DOcker**
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/assets/143313733/3f5494ce-e548-4556-8e6a-583311687acb)
+
+Docker is a transformative technology in modern software development. It facilitates the creation of lightweight, portable containers that encapsulate applications and their dependencies. These containers ensure consistency in development, testing, and deployment environments, eliminating the "it works on my machine" problem. With Docker, developers can build, ship, and run applications seamlessly across diverse computing environments, enhancing collaboration and accelerating the software development lifecycle. 
+
+For Docker, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Docker-related discussions.
+
+**Docker Quetions and Answers▶️**
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Docker/Docker_Answers_README.me)
+-------------------------------------------------------------------------------------------------------------------
 
 
 **Kubernetes :**
