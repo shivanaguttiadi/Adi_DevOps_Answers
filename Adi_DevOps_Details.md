@@ -1,29 +1,29 @@
 **The Below URL Details **
 
-**✈️ AWS Cloud Quetiond and Answers**
+**✈️ AWS Cloud Quetions and Answers**
 
-**✈️ Terraform Quetiond and Answers**
+**✈️ Terraform Quetions and Answers**
 
-**✈️ CICD  Quetiond and Answers**
+**✈️ CICD  Quetions and Answers**
 
-**✈️ Git Quetiond and Answers**
+**✈️ Git Quetions and Answers**
 
-**✈️ Kububenetes Quetiond and Answers**
+**✈️ Kububenetes Quetions and Answers**
 
-**✈️ Ansible Quetiond and Answers**
+**✈️ Ansible Quetions and Answers**
 
-**✈️ Linux Quetiond and Answers**
+**✈️ Linux Quetions and Answers**
 
-**✈️ Scripting Quetiond and Answers**
+**✈️ Scripting Quetions and Answers**
 
 
 **AWS **
  
  Amazon Web Services, which is a cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage options, database management, machine learning, networking, and more, all delivered over the internet. AWS enables businesses to access scalable and reliable infrastructure without the need for physical hardware investments.
 
-Please find the AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
+For AWS, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
 
-▶️ AWS Cloud Quetiond and Answers
+AWS Cloud Quetions and Answers ▶️ 
 [click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 
 
@@ -38,6 +38,30 @@ One of the key benefits of Terraform is its ability to manage infrastructure as 
 Terraform follows a declarative approach, meaning users specify the desired end state of their infrastructure rather than the step-by-step process of how to achieve it. This abstraction simplifies infrastructure management and allows Terraform to handle the complexity of resource dependencies, provisioning order, and state management automatically.
 
 Terraform supports a wide range of cloud providers, including AWS, Azure, Google Cloud Platform, and many others, making it a versatile tool for managing infrastructure across heterogeneous environments. Its extensibility through provider plugins and its vibrant community contribute to its widespread adoption in the industry.
+
+For Terraform, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for Terraform-related discussions.
+
+Terraform Cloud Quetions and Answers ▶️ 
+[click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Terraform)
+
+**CICD **
+
+CI/CD stands for Continuous Integration/Continuous Deployment, which is a set of practices and principles aimed at automating the process of software delivery. It encompasses both Continuous Integration (CI) and Continuous Deployment (CD), which are integral parts of modern software development workflows.
+
+Continuous Integration (CI) refers to the practice of frequently integrating code changes into a shared repository, where automated tests are run to verify the changes. The goal is to detect integration errors early and ensure that the codebase remains in a deployable state at all times. CI pipelines typically include steps such as compiling code, running unit tests, static code analysis, and generating artifacts.
+
+Continuous Deployment (CD), on the other hand, focuses on automating the deployment of validated code changes to production or other environments. CD pipelines automate the process of deploying application updates, infrastructure changes, and configurations, enabling teams to deliver software changes quickly and reliably.
+
+Jenkins and Azure DevOps are popular CI/CD tools used to implement and manage CI/CD pipelines:
+
+Jenkins: Jenkins is an open-source automation server that supports building, deploying, and automating projects. It provides a wide range of plugins for integrating with various tools and technologies, making it highly customizable. Jenkins allows users to define CI/CD pipelines as code using Jenkinsfile, enabling version control and collaboration.
+Azure DevOps: Azure DevOps is a cloud-based collaboration platform provided by Microsoft, offering a suite of tools for software development, including version control, agile planning, CI/CD, and more. Azure DevOps provides built-in CI/CD capabilities with pipelines that support building, testing, and deploying applications to Azure or other cloud platforms.
+
+For CICD, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for CICD-related discussions.
+
+▶️
+[click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
+
 
 
 **Ansible conenete related**
@@ -54,4 +78,10 @@ For Ansible, you can find interview questions and answers on platforms like GitH
 
 ▶️
 [click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Ansible)
+
+
+
+▶️
+[click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Ansible)
+
 
