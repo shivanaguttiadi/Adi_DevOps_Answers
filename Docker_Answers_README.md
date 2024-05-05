@@ -1,7 +1,7 @@
-**About DOcker **
+**About DOCKER**
 
-****Basic Docker Commands :
-**
+**Basic Docker Commands:**
+
 
 1. **docker run**
    - Use Case: To start a new container from an image.
