@@ -1,518 +1,642 @@
-# DevOps-Real-Time-Interview-Questions
+# Security
 
-> [!NOTE]  
-> This is just for educational purpose. Please execute each steps on your own risk. This blog is just to share the knowledge and help the peoples.
+<details>
+<summary>What is DevSecOps? What its core principals?</summary><br><b>
 
-Below DevOps Tools Are Covered
-------------- 
-AWS     |   Linux  |  Jenkins       | Git           | Docker        | Kubernetes    | Terraform     | Monitoring    | CICD Pipelines | General  Interview Questions
+A couple of quotations from chosen companies:
 
-# General Interview Questions
+[Snyk](https://snyk.io/series/devsecops): "DevSecOps refers to the integration of security practices into a DevOps software delivery model. Its foundation is a culture where development and operations are enabled through process and tooling to take part in a shared responsibility for delivering secure software."
 
-1. Can you tell me a little bit about yourself?
-2. What are the roles & responsibilities in current company.
-3. Why did you apply for this position?
-4. Why are you looking to leave your current company?
-5. What are your good professional strengths?
-6. Tell me about a challenge you've faced at work and how you deal with it.
-7. How do you deal with pressure or stressful situations? any examples
-8. What is DevOps?
-9. Why organizations are implementing DevOps?
-10. What are the Benefits of using DevOps
-11. Why do you want to work here?
-12. Where do you see yourself in 5 years?
-13. How did you hear about the position?
-14. What do you know about our company?
-15. Why should we hire you?
-16. What are your greatest professional strengths?
-17. What is your dream job?
-18. What other companies are you interviewing with?
-19. What type of work environment do you prefer?
-20. What have you done in these years what are tools involved?
-21. Why do we need a DevOps?
-22. As a DevOps engineer why we use Jira Tool?
-23. What is the use of Jira tool?
-24. Can tell what are issues you faced in your project? How do you resolve it and how do you
-come to know the issues?
-25. Did you get got any awards?
+[Red Hat](https://www.redhat.com/en/topics/devops/what-is-devsecops): "DevSecOps stands for development, security, and operations. It's an approach to culture, automation, and platform design that integrates security as a shared responsibility throughout the entire IT lifecycle."
 
-# AWS
+[Jfrog](https://jfrog.com/devops-tools/what-is-devsecops): "DevSecOps principles and practices parallel those of traditional DevOps with integrated and multidisciplinary teams, working together to enable secure continuous software delivery. The DevSecOps development lifecycle is a repetitive process that starts with a developer writing code, a build being triggered, the software package deployed to a production environment and monitored for issues identified in the runtime but includes security at each of these stages."
+</b></details>
 
-1. What is the difference between stopping and terminating an EC2 instance?
-2. How can you add an existing instance to a new Auto Scaling group?
-3. How do you configure CloudWatch to recover an EC2 instance?
-4. How do you configure CloudWatch to recover an EC2 instance?
-5. What is the difference between Latency Based Routing and Geo DNS?
-6. How does Amazon Route 53 provide high availability and low latency?
-7. What is the difference between a Domain and a Hosted Zone?
-8. What are the elements of an AWS CloudFormation template?
-9. What happens in CloudFormation when one of the resources in a stack cannot be created successfully?
-10. What are the steps involved in a CloudFormation Solution?
-11. How does AWS config work with AWS CloudTrail?
-12. Can AWS Config aggregate data across different AWS accounts?
-13. How are reserved instances different from on-demand DB instances?
-14. Which type of scaling would you recommend for RDS and why?
-15. What is a maintenance window in Amazon RDS? Will your DB instance be available during maintenance events?
-16. What are the consistency models in DynamoDB?
-17. What type of query functionality does DynamoDB support?
-18. What are the different types of load balancers in AWS?
-19. What are the different uses of the various load balancers in AWS Elastic Load Balancing?
-20. How can you use AWS WAF in monitoring your AWS applications?
-21. What are the different AWS IAM categories that you can control?
-22. What is the difference between an IAM role and an IAM user?
-23. What are the managed policies in AWS IAM?
-24. Can you give an example of an IAM policy and a policy summary?
-25. How does AWS IAM help your business?
-26. What is the relation between the Availability Zone and Region?
-27. What is auto-scaling?
-28. What is geo-targeting in CloudFront?
-29. How do you upgrade or downgrade a system with near zero downtime?
-30. What are the tools and techniques that you can use in AWS to identify if you are paying more than you should be, and how to correct it?
-31. What services can be used to create a centralized logging solution?
-32. What are the native AWS Security logging capabilities?
-33. What is a DDoS attack and what services can minimize them?
-34. You are trying to provide a service in a particular region but you are not seeing the service in that region. Why is this happening and how do you fix it?
-35. Name some of the AWS services that are not region specific
-36. What are the differences between NAT Gateways and NAT Instances?
-37. What are the factors to consider while migrating to Amazon Web Services?
-38. What is RTO and RPO in AWS?
-39. If you would like to transfer huge amounts of data, which is the best option among Snowball, Snowball Edge, and Snowmobile?
-40. What are some key differences between AWS S3 and EBS?
-41. How do you allow a user to gain access to a certain S3 bucket?
-42. How can you monitor S3 cross region replication to ensure consistency without actually checking the bucket?
-43. VPC is not resolving the server through DNS. What might be the issue and how can you fix it?
-44. How do you connect multiple sites to a VPC?
-45. Name and explain some security products and features available in VPC?
-46. How do you monitor Amazon VPC?
-47. How can you automate EC2 backup using EBS?
-48. What is the difference between EBS and Instance Store?
-49. Can you take a backup of EFS like EBS, and if yes, how?
-50. What are Key-Pairs in AWS?
-51. What is the relation between the Availability Zone and Region?
-52. What is a Power User Access in AWS?
-53. What is the use of lifecycle hooks is Autoscaling?
-54. What is NAT Instance/NAT Gateway?
-55. Why is SG?
-56. If my RDS is running out of space how will you resolve that without launching other RDS?
-57. What is Lambda and how it works?
-58. How will you take backups using Lambda?
-59. Component of VPC
-60. Difference between EC2 and ECS
-61. Types of storage in AWS?
-62. What is DNS? Uses?
-63. Why you won’t go with EC2 for installing Database? Why RDS?
-64. What is Load Balancer
-65. What is VPC Peering
-66. What is CloudFront
-67. What is the use of the IAM role?
-68. How many subnets assign to the routing table?
-69. What is the static IP?
-70. How will get access to private subnets?
-71. Can you increase the size of root volume without shutdown the instance?
-72. What is ELB? How many types are there?
-73. What is autoscaling?
-74. What is hosted zone and uses of recordset?
-75. Types in R53?
-76. How will take up backup for volumes?
-77. How to encrypt the root volume?
-78. How will access AS account?
-79. What is the subnet group in DB?
-80. How do you connect to windows instances?
-81. Port numbers of RDP, SSH, and HTTPS?
-82. What is the difference between EBS, S3, and EFS?
-83. What type of data do you store in s3 and EBS?
-84. What is s3 Replication?
-85. Why use events in cloud watch in AWS?
-86. What is the difference between VPC level security and system level security?
-87. If you lost the pem file then how will you connect to EC2? 
-88. You want to store temporary data on an EC2 instance. Which storage option is ideal for this purpose?
-89. How do you configures3 bucket?
-90. What are EC2 and VPC how we create & write a script?
-91. Difference between Vagrant and AWS?
-92. What is the use of EC2 AMI?
-93. What is the use case of S3 Bucket?
-94. My webservers are running in private subnet I want to route my ELB Traffic to web servers in private subnets?
-95. What is NAT Instance/NAT Gateway?
-96. What is NACL and Security Group
-97. If my RDS is running out of space how will you resolve that without launching other RDS?
-98. What is Lambda and how it works?
-99. How will you take backups using Lambda?
-100. Types of storage in AWS?
-101. Difference between S3 & Glacier?
-102. Components of VPC?
-103. Difference between EC2 and ECS?
-104. What is DNS? Uses?
-105. Why you won’t go with EC2 for installing Database? Why RDS?
-106. What is AWS?
-107. What is a cloud?
-108. What is EC2?
-109. What is VPC?
-110. What is AZ?
-111. What is ELB?
-112. What is VPC peering?
-113. What is the aim of VPC peering?
-114. Why use VPC peering, real-time example?
-115. What is Security Group?
-116. What is cloud front/CDN?
-117. What is a lambda, what is the use of it?
-118. What have you developed using Lambda?
-119. What is automation have you done for with lambda?
-120. What is cloud watch?
-121. What is cloud formation?
-122. S3 lifecycle?
-123. What is the use of the IAM role?
-124. How many subnets assign to the routing table?
-125. What is the static IP?
-126. How will get access to private subnets?
-127. Can you increase the size of root volume without shutdown the instance?
-128. What is ELB? How many types are there?
-129. What is autoscaling?
-130. What is hosted zone and uses of recordset?
-131. How will take up backup for volumes?
-132. How to encrypt the root volume?
-133. How will access AS account?
-134. What is the subnet group in DB?
-135. How do you connect to windows instances?
-136. Port numbers of RDP, SSH, and HTTPS?
-137. What is the difference between EBS, S3, and EFS?
-138. What type of data do you store in s3 and EBS?
-139. Replication s3?
-140. Why use events in cloud watch in AWS?
-141. What is the difference between VPC level security and system level security?
-142. If you lost the pem file then how will you connect to EC2?
-143. What IAM Role and policy?
-144. How will run lambda and where you will configure lambda?
-145. How lambda run on secluding and event-based?
-146. What is cloud watch? Have you configured any custom metrics?
-147. What are the metrics available on your dashboard?
-148. How do you configure CPU Utilization on your dashboard?
-149. How can I attach SSL for the s3 bucket?
-150. S3 bucket having a policy for only read-only but you're having full access for you? Can you
-151. What is CDN?
-152. How will attach policy for IAM users by group or individual?
-153. Have you used any tool for creating customized AMIS?
-154. What is connection draining?
-155. How your ELB shares traffic?
-156. What is auto-scaling?
-157. Types of Load Balancers and example?
-158. What is the run time of Lambda?
-159. What is the memory size of lambda?
-160. How can I run lambda for more time?
-161. By using lambda what are automation you’re performed in your project?
-162. Why you’re not using boto3 for infrastructure provisioning?
-163. What are the modules you used in Lambda?
-164. Have created SNS topic?
-165. In your VPC all IPS are finished you have a requirement for resources how to provision it?
-166. What is access key and secret key?
-167. What is CORS in s3?
-168. What type of ELB you used in the project?
-169. Difference between EBS and NFS?
-170. Different types of storage in S3?
-171. Can you explain how you have used Amazon CloudFront to improve content delivery and performance, including any techniques you have used to set up caching, SSL/TLS, or geo-restriction?
-172. How have you used AWS Identity and Access Management (IAM) to manage access control and permissions for AWS services and resources, including any techniques you have used to set up policies or integrate with other authentication and authorization systems?
-173. Can you explain what AWS Cloud is and how it is used in software development and deployment?
-174. How have you used AWS Cloud to deploy and manage infrastructure, including any techniques you have used to set up virtual servers, databases, and storage?
-175. Can you describe your experience using AWS Cloud to manage and scale applications, including any techniques you have used to set up load balancing, auto-scaling, and fault tolerance?
-176. How have you used AWS Cloud to manage security and compliance, including any techniques you have used to set up network security, access control, and compliance audits?
-177. Can you explain how you have used AWS Cloud to integrate with other tools and services in the development pipeline, such as continuous integration and deployment platforms or artifact repositories?
-178. How have you used AWS Cloud to monitor and troubleshoot applications and infrastructure, including any techniques you have used to set up logging, monitoring, and alerting?
-179. Can you describe your experience using AWS Cloud to manage data and analytics, including any techniques you have used to set up data pipelines, data warehousing, and machine learning?
-180. How have you used AWS Cloud to manage hybrid or multi-cloud environments, including any techniques you have used to set up hybrid architectures, manage data across different clouds, or integrate with on-premise infrastructure?
-181. Can you explain how you have used AWS Cloud to manage cost optimization and billing, including any techniques you have used to set up cost monitoring, budgeting, and optimization?
-182. How have you used AWS Cloud to manage compliance and regulatory requirements, including any techniques you have used to set up compliance audits, implement data protection policies, or manage GDPR requirements?
-183. You have a web application that needs to scale dynamically to handle spikes in traffic. How would you use AWS Cloud to achieve this?
-184. You are tasked with setting up an architecture for a new application that must be highly available and fault-tolerant. How would you go about designing this architecture in AWS Cloud?
-185. Your company has a large amount of data that needs to be stored and analyzed. How would you use AWS Cloud to set up a data warehouse and analysis system?
-186. You are tasked with migrating an existing application to AWS Cloud. What steps would you take to ensure a successful migration?
-187. Your application requires a high level of security and compliance. How would you use AWS Cloud to ensure the security and compliance requirements are met?
-188. You are working with a team that needs to collaborate and share code in a secure and efficient manner. How would you use AWS Cloud to set up a secure code repository and collaboration environment?
-189. You need to implement a disaster recovery plan for your application. How would you use AWS Cloud to set up a disaster recovery solution that meets your needs?
-190. Your application has specific performance requirements. How would you use AWS Cloud to set up a performance monitoring and optimization solution?
-191. You need to set up a system to handle real-time streaming data. How would you use AWS Cloud to set up a real-time data processing and analysis system?
-192. You have a globally distributed user base that requires low-latency access to your application. How would you use AWS Cloud to set up a content delivery network (CDN) to improve performance?
-193. Can you describe your experience with AWS CloudFormation and how you have used it to manage infrastructure as code?
-194. How have you used AWS Lambda to automate tasks and build serverless applications, including any techniques you have used to set up event-driven architecture or manage deployment and scaling?
-195. Can you discuss your experience using Amazon S3 to store and manage object data, including any techniques you have used to set up versioning, access control, or lifecycle policies?
-196. How have you used Amazon EC2 to manage virtual machines and scale applications, including any techniques you have used to manage instance types, security groups, or autoscaling?
-197. Can you explain how you have used Amazon RDS to manage relational databases, including any techniques you have used to manage backups, scaling, or replication?
-198. How have you used Amazon Elastic Load Balancing to distribute traffic across instances and improve application availability, including any techniques you have used to set up health checks or manage cross-zone load balancing?
-199. Can you describe your experience using Amazon VPC to isolate and secure your cloud resources, including any techniques you have used to set up subnets, security groups, or VPN connections?
-200. How have you used Amazon Route 53 to manage DNS and routing for your cloud applications, including any techniques you have used to set up traffic policies or integrate with other AWS services?
-201. My webservers are running in private subnet I want to route my ELB Traffic to web servers in
-private subnets?
-202. What is NAT Instance/NAT Gateway?
-203. If my RDS is running out of space how will you resolve that without launching other RDS?
-204. Difference between Vagrant and AWS?
-205. What is use of AMI?
-206. What is the purpose and use of s3 bucket?
-207. Explain me how do you take backups for RDS?
-208. Do you any knowledge on setting up BigData cluster?
-209. How does auto scaling work?
-210. What type of ELB you used in the project?
-211. Are you only using cloud watch for monitoring?
-212. What is Lambda?
-213. How does it work?
-214. I want to run my job today at 5 pm how do you configure?
-215. Difference between Classic ELB and Application ELB?
-216. What is autoscaling?
-217. What is the launch configuration in auto scaling?
-218. Different types of storage in S3?
-219. Difference between EBS and NFS?
-220. What are Glacier and Snowball?
-221. What has required one resource in was to communicate with other resources?
+<details>
+<summary>What the "Zero Trust" concept means? How Organizations deal with it?</summary><br><b>
 
-# Linux
-1. In Ubuntu sever what is a public key and private key?
-2. Write a script what you are done daily?
-3. #chmod 444 <filename.txt?> in root user? Change the above permissions to 777?
-4. #curl www.google.com is not working and telnet www.google.com is working now?
-5. I am having two instances in public and private subnets, I am pinged from one server to another
-server and getting any response but by using telnet<ip> on port 23 it's working now?
-6. What is SSL? And how it works internally?
-7. Mostly asked on networking, ports, and protocols
-8. What is Lambda and how it works?
+[Codefresh definition](https://codefresh.io/security-testing/codefresh-runner-overview): "Zero trust is a security concept that is centered around the idea that organizations should never trust anyone or anything that does not originate from their domains. Organizations seeking zero trust automatically assume that any external services it commissions have security breaches and may leak sensitive information"
+</b></details>
 
-# Jenkins
-1. How do you configure the job in Jenkins?
-2. Difference between ant and maven?
-3. Maven lifecycle?
-4. Where do you find errors in Jenkins?
-5. How do you integrate sonar Qube in Jenkins?
-6. In Jenkins how can you find log files?
-7. Jenkins workflow and write a script for this workflow?
-8. Have you worked on maven scripts?
-9. Maven lifecycle?
-10. About pom.xml?
-11. How build job in Jenkins?
-12. How to create continuous deployment in Jenkins?
-13. What is Poll SCM?
-14. In Jenkins how to give backup from one server to another server?
-15. The flow of SonarQube? why we use it?
-16. What is the use of quality gates in sonarqube?
-17. Suppose we give 30 % quality I want you to define in quality gates?
-18. Why we use pipeline in Jenkins? Flow?
-19. What is Release management due to production?
-20. The flow of SonarQube? why we use it?
-21. What is the use of quality gates in sonarqube?
-22. Suppose we give 30 % quality I want you to define in quality gates?
-23. Jenkins full flow?
-24. What is the build trigger?
-25. Did you use only SonarQube for static code analysis?
-26. What are the plugins have used in the project?
-27. Dependencies in pom.xml? what dependency have you used in your project?
-28. Jenkins Workflow
-29. How to build a job in Jenkins by using git and maven?
-30. What is the use of maven in Jenkins?
-31. Where can you find the particular error in logs?
-32. Explain Jenkins CI/CD?
-33. What type of deployments do you follow in your project?
-34. Where do you check build logs in Jenkins?
-35. What is the difference between a Jenkinsfile and a pipeline script?
-36. How do you create a pipeline in Jenkins?
-37. How can you schedule a build in Jenkins?
-38. What is the difference between a freestyle project and a pipeline in Jenkins?
-39. How do you create a backup of Jenkins?
-40. How to recover crashed jenkins master?
-41. How to configure jenkins master-slave architecture
-42. What are some common plugins used in Jenkins?
-43. How do you install Jenkins and configure a Jenkins job?
-44. What are some of the key features of Jenkins?
-45. How do you integrate Jenkins with other tools and technologies?
-46. What is a Jenkins pipeline and how do you create one?
-47. How do you secure your Jenkins instance?
-48. How do you troubleshoot issues with Jenkins builds?
-49. What are some best practices for using Jenkins?
-50. How do you configure Jenkins agents?
+<details>
+<summary>Explain the principle of least privilege</summary><br><b>
 
-** Here 20 Azure DevOps-related CI/CD questions:
+The principle of least privilege refers to the practice of providing minimal permissions to users, roles, and service accounts that allow them to perform their functions. If an entity does not require an access right then it should not have that right.
+</b></details>
 
-1. What is Azure DevOps, and how does it facilitate CI/CD?
-2. What are the key components of Azure DevOps?
-3. Explain the concept of continuous integration (CI) in Azure DevOps.
-4. How does Azure Pipelines support continuous integration and continuous delivery (CI/CD) workflows?
-5. What are the benefits of using Azure Repos for version control in CI/CD pipelines?
-6. Describe the role of Azure Artifacts in CI/CD pipelines.
-7. How does Azure DevOps enable automated testing as part of CI/CD?
-8. What are the different types of build agents available in Azure Pipelines?
-9. Explain the use of YAML pipelines in Azure DevOps for defining CI/CD workflows.
-10. How do you trigger builds and releases in Azure Pipelines?
-11. What are deployment environments in Azure Pipelines, and how are they used?
-12. Describe the process of setting up release gates in Azure DevOps for automated deployment approvals.
-13. How does Azure DevOps handle rollbacks in case of deployment failures?
-14. What is the purpose of service connections in Azure DevOps, and how are they configured?
-15. How do you manage secrets and sensitive information securely in Azure DevOps pipelines?
-16. Explain the concept of variable groups in Azure DevOps, and when would you use them?
-17. What are the deployment strategies supported by Azure DevOps for releasing applications?
-18. How does Azure DevOps integrate with other Azure services for building and deploying cloud-native applications?
-19. Describe the role of Azure DevOps in infrastructure as code (IaC) and configuration management.
-20. What are some best practices for implementing CI/CD pipelines using Azure DevOps?
+<details>
+<summary>What it means to be "FIPS compliant"?</summary><br><b>
+</b></details>
 
-These questions cover various aspects of CI/CD pipelines, version control, testing, deployment, and best practices in Azure DevOps.
+<details>
+<summary>What is a Certificate Authority?</summary><br><b>
+ 
+ [wikipedia](https://en.wikipedia.org/wiki/Certificate_authority) : A certificate Authority that stores, singns and issues certificates.
+ 
+ A certificate certifies the authenticity of the public key delivered by the website. It prevents [man-in-the-middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) attacks by providing a lot of information which identifie the public key. Importante information provided inside a [X.509](https://www.ssl.com/faqs/what-is-an-x-509-certificate/) certificate are like :
+  * Version Number
+  * Serial Number
+  * Signature Algorithm ID
+  * Issuer Name 
+  * Validity period
+  * Subject name
+  * Subject Public Key info
+ 
+Every certificates must be signed by a trusted authority, a certificate chain is a concatenation of mutilple certificates signed by a more trusted authority from the one delivered by the website to the root Certificate Authority (CA). The root Certificate Authority is the top most trusted authority and every browsers embark their certificate natively.
+ 
+</b></details>
 
-# Git
-1. Differences between git rebase and git merge?
-2. Git workflow?
-3. What is git init?
-4. What is git clone?
-5. If there is suddenly the file is deleted in git and how do you get it back?
-6. Difference between SVN and GIT?
-7. Difference between ant and maven?
-8. What are the version control tools are using in the present market?
-9. What is git commit
-10. Git push and fetch?
-11. How to create a repository in GitHub?
-12. How to push the file in the GitHub flow?
-13. About branching strategies?
-14. Difference between GitHub and BitBucket?
-15. Use of git commit and purpose?
-16. Difference between rebasing and merge?
-17. What is Maven repositories?
-18. Explain about GIT Branching in your project?
-19. Can you describe your experience with Git and GitHub, and how you have used these tools in your previous roles?
-20. What are some of the key benefits of using Git for version control, and how have you seen these benefits in your work?
-21. Can you discuss your experience using Git to manage changes to code and collaborate with other developers, including any techniques you have used to manage conflicts and merge changes?
-22. How have you used Git branching and tagging strategies to manage releases and versioning, particularly in large code bases or complex projects?
-23. Can you explain how Git hooks work and how you have used them to automate workflows or enforce coding standards?
-24. How have you used GitHub to implement code reviews and ensure code quality, including any techniques you have used to enforce coding standards or identify and fix bugs?
-25. Can you discuss how you have used Git to manage changes to code and collaborate with other developers, including any techniques you have used to manage conflicts and merge changes?
-26. How have you used Git tagging and release management strategies to manage releases and versioning, particularly in large code bases or complex projects?
-27. Can you explain how you have used Git hooks to automate workflows or enforce coding standards, and any techniques you have used to implement custom hooks?
-28. How have you used GitHub to implement continuous integration and continuous deployment workflows, including any techniques you have used to automate testing, building, and deploying code?
-29. Can you describe your experience using Git and GitHub for version control, and how you have used these tools in your previous roles?
-30. What are some of the key benefits of using Git for version control, and how have you seen these benefits in your work?
+<details>
+<summary>Explain RBAC (Role-based Access Control)</summary><br><b>
 
-# Docker
-1. What is docker file how it works?
-2. What is docker volume?
-3. What is the purpose of Docker?
-4. Difference between Docker and ansible?
-5. What is the purpose and use of docker?
-6. How to write docker file?
-7. Explain any 5 docker commands?
-8. Explaion about COPY and ADD options
-9. Explain about ENTRYPOINT
-10. Docker file structure ?
+Access control based on user roles (i.e., a collection of access authorizations a user receives based on an explicit or implicit assumption of a given role). Role permissions may be inherited through a role hierarchy and typically reflect the permissions needed to perform defined functions within an organization. A given role may apply to a single individual or to several individuals.
 
-# Kubernetes
-1. What is Kubernetes?
-2. Explain Kubernetes architecture?
-3. Can you describe your experience using Kubernetes to manage containerized applications and services in your previous roles?
-4. How have you used Kubernetes to orchestrate container deployments and manage container lifecycle, including techniques for scaling, updating, and monitoring containers?
-5. Can you explain how you have used Kubernetes to manage network and storage resources, including any techniques you have used to configure load balancers or persistent storage?
-6. How have you used Kubernetes to manage configuration and secrets, including any techniques you have used to manage environment variables or securely store sensitive information?
-7. Can you describe your experience using Kubernetes to manage multi-tenant environments and resource allocation, including any techniques you have used to manage namespaces or quotas?
-8. How have you used Kubernetes to implement fault tolerance and disaster recovery, including any techniques you have used to manage backups or implement rolling updates?
-9. Can you discuss your experience using Kubernetes for service discovery and load balancing, including any techniques you have used to implement ingress controllers or service meshes?
-10. How have you used Kubernetes to implement security controls, including any techniques you have used to manage user permissions or implement network policies?
-11. Can you explain how you have used Kubernetes to integrate with other tools or services, such as CI/CD pipelines or logging and monitoring platforms, to automate workflows or manage application deployments?
-12. How have you used Kubernetes to manage stateful applications and databases, including any techniques you have used to manage persistent storage or implement StatefulSets?
-13. Can you describe your experience managing Kubernetes clusters, including any techniques you have used to automate cluster deployments or upgrades?
-14. How have you used Kubernetes to manage containerized applications, including any techniques you have used to scale, monitor, or secure applications running in your clusters?
-15. Can you explain how you have used Kubernetes to manage networking and storage resources, including any techniques you have used to integrate with external storage providers or load balancers?
-16. How have you used Kubernetes to manage stateful applications, including any techniques you have used to deploy and manage databases or other stateful services?
-17. Can you describe your experience using Kubernetes to manage and deploy microservices architectures, including any techniques you have used to manage service discovery or handle network traffic between services?
-18. How have you used Kubernetes to implement continuous integration and deployment pipelines, including any techniques you have used to automate testing, building, and deploying containerized applications?
-19. Can you discuss your experience using Kubernetes to implement security controls, including any techniques you have used to manage user access or implement network policies?
-20. How have you used Kubernetes to manage different types of workloads, such as batch processing jobs or machine learning workloads, including any techniques you have used to optimize performance or manage resources?
-21. Can you explain how you have used Kubernetes to manage multiple clusters or hybrid cloud environments, including any techniques you have used to manage workload portability or implement federation?
-22. How have you used Kubernetes to manage and troubleshoot issues in production environments, including any techniques you have used to diagnose and resolve performance or availability issues?
+- RBAC mapped to job function, assumes that a person will take on different roles, overtime, within an organization and different responsibilities in relation to IT systems.
+</b></details>
 
-# Terraform
-1. Why Terraform? why not others?
-2. Can Terraform used for another cloud provisioning?
-3. From where you run Terraform?
-4. How many environments your maintaining?
-5. Write Terraform code for an S3 bucket and attach a policy?
-6. Write a Terraform code for EC2?
-7. What is Terraform, and how have you used it in your previous roles?
-8. How does Terraform differ from other infrastructure as code tools like CloudFormation or Ansible?
-9. Can you explain how Terraform manages infrastructure resources across multiple providers, including public cloud, private cloud, and on-premises infrastructure?
-10. How do you ensure that your Terraform code is reusable, modular, and maintainable over time?
-11. Can you describe how you have used Terraform to implement infrastructure as code in a CI/CD pipeline?
-12. Can you discuss how you have implemented version control for your Terraform code using tools like Git?
-13. How have you used Terraform modules to modularize your infrastructure code and reuse code across different environments?
-14. Can you explain how Terraform handles dependencies between resources, and how you have managed these dependencies in your code?
-15. Can you describe your experience using Terraform to manage Kubernetes resources and infrastructure?
-16. How have you used Terraform to implement security and compliance policies, particularly in multi-tenant and regulated environments?
-17. Can you describe your experience with Terraform and how you have used it in your previous roles?
-18. What are some of the key benefits of using Terraform for infrastructure as code, and how have you seen these benefits in your work?
-19. Can you explain how Terraform manages infrastructure resources across multiple providers, including public cloud, private cloud, and on-premises infrastructure?
-20. How do you ensure that your Terraform code is reusable, modular, and maintainable over time?
+#### Security - Authentication and Authorization
 
-# Ansible
-1. How to deploy to 100 servers at a time?
-2. Have you worked on ansible modules?
-3. How do you configure ansible in Jenkins?
-4. By using Ansible how to deploy in Jenkins?
-5. What is the use of ansible?
-6. What is configuration management?
-7. What are the modules you have used in ansible?
-8. Location and configuration file in ansible?
-9. Write a sample playbook?
-10. What is the ansible modules?
-11. Have used any pre-defined modules in your project?
-12. Write a sample boto3 script?
-13. Why ansible?
-14. What is Ansible, and how have you used it in your previous roles?
-15. Can you explain the difference between Ansible and other configuration management tools like Puppet or Chef?
-16. How have you used Ansible to automate the deployment of applications and infrastructure?
-17. Can you describe how you would use Ansible to manage a large, distributed infrastructure?
-18. How have you used Ansible to manage and maintain application configuration files and templates?
-19. Have you used Ansible in conjunction with other tools like Docker or Kubernetes, and if so, how did you integrate them?
-20. Can you explain how Ansible uses inventory files, and what strategies have you used to manage large inventories?
-21. Have you implemented custom Ansible modules or plugins, and if so, can you describe them?
-22. How do you ensure that your Ansible playbooks are idempotent, and what are some techniques you have used to test this?
-23. Can you describe a particularly challenging Ansible deployment or automation project you worked on and how you overcame any obstacles?
-24. How is Ansible different from other configuration management tools like Puppet and Chef?
-25. How does Ansible use YAML files, and what are the benefits of using YAML in Ansible?
+<details>
+<summary>Explain Authentication and Authorization</summary><br><b>
 
-# Monitoring
-1. Which monitoring tools are used in Project?
-2. How grafana monitoring works
-3. Explain about promethous
-4. How to export CloudWatch Logs to Grafana
-5. What is ELK?
+Authentication is the process of identifying whether a service or a person is who they claim to be.
+Authorization is the process of identifying what level of access the service or the person have (after authentication was done)
+</b></details>
 
-# Bash Scripting
-1. Write a program to count no of times each word present in the string and save it in the
-dictionary?
-2. Three members have same password one I have to change write a script for this example?
-3. Write a script for how to push the repository and build the job in Jenkins?
-4. What are EC2 and VPC how we create & write a script?
-5. How have you used Bash shell scripts to implement version control and manage changes to code, including any techniques you have used to automate testing or build processes?
-6. Can you describe your experience using bash shell scripts to automate tasks in your previous roles?
-7. How have you used bash scripting to manage and manipulate files and directories, including any techniques you have used to automate backups or file transfers?
-8. Can you explain how you have used bash scripts to manage processes and system resources, including any techniques you have used to monitor or optimize performance?
-9. How have you used bash scripts to automate repetitive tasks, such as configuring system settings or setting up new users?
-10. Can you describe your experience using bash scripts for system administration tasks, including any techniques you have used to automate server configurations or manage network settings?
-11. How have you used bash scripts to interact with APIs or web services, including any techniques you have used to parse and manipulate data?
-12. Can you discuss your experience using bash scripts for debugging and troubleshooting, including any techniques you have used to diagnose and fix errors or issues?
-13. How have you used bash scripts to implement security controls, including any techniques you have used to manage user permissions or implement firewalls?
-14. Can you explain how you have used bash scripts to automate software installations and updates, including any techniques you have used to manage dependencies or configure application settings?
-15. How have you used bash scripts to integrate with other tools or services, such as version control systems or continuous integration platforms, to automate workflows or tasks?
+<details>
+<summary>What authentication methods are there?</summary><br><b>
+</b></details>
 
+<details>
+<summary>Give an example of basic authentication process</summary><br><b>
 
-# CICD Pipelines
-1. What is CI/CD?
-2. Explain complete CICD pipeline
+A user uses the browser to authenticate to some server. It does so by using the authorization field which is constructed from the username and the password combined with a single colon. The result string is encoded using a certain character set which is compatible with US-ASCII. The authorization method + a space is prepended to the encoded string.
+</b></details>
 
-# Real-Time Troubleshooting
-1. My application suddently stop working? explain process to resolve this issue
-2. My EC2 disk space getting full for Linux? How to increase disk space?
-3. Auto Scaling not working as expected? which parameter need to check?
-4. My application is working very slow? how to fix and what things to check?
-5. AWS account bill are huge, how to control the infra cost
-6. AWS bill suddenyl increase. Explain me process to figure out root case
-7. After deployment application is not working. How to roll back last stable version in Jenkins?
+<details>
+<summary>What are the three primary factors of authentication? Give three examples of each</summary><br><b>
 
-# Looking for DevOps Real Time Interview With Answers?
-- Visit https://topmate.io/namdevrathod/710907
-- WhatsApp : +91 7249 0590 06
-- Email : support@devopswithnamdev.com
-- YouTube : https://www.youtube.com/@namdev.devops
-- Website : https://devopswithnamdev.com/
+Something you have
+- Smart card
+- Physical authentication device
+- Software token
 
+Something you know
+- Password
+- PIN
+- Passphrase
+
+Something you are
+- Fingerprint
+- Iris or retina scan
+- Gait analysis
+</b></details>
+
+<details>
+<summary>Explain Token-based authentication</summary><br><b>
+</b></details>
+
+<details>
+<summary>Explain Risk-based authentication</summary><br><b>
+</b></details>
+
+<details>
+<summary>Explain what is Single Sign-On</summary><br><b>
+
+SSO (Single Sign-on), is a method of access control that enables a user to log in once and gain access to the resources of multiple software systems without being prompted to log in again.
+</b></details>
+
+<details>
+<summary>Explain how the Kerberos authentication protocol works as a SSO solution</summary><br><b>
+
+Kerberos works as a SSO solution by only requiring the user to sign in using their credentials once within a specific validity time window. Kerberos authentication grants the user a Ticket Granting Ticket (TGT) from a trusted authentication server which can then be used to request service tickets for accessing various services and resources. By passing around this encrypted TGT instead of credentials, the user does not need to sign-in multiple times for each resource that has been integrated with Kerberos.
+</b></details>
+
+<details>
+<summary>Does Kerberos make use of symmetric encryption, asymmetric encryption, both, or neither?</summary><br><b>
+
+Symmetric Encryption - Kerberos uses exclusively symmetric encryption with pre-shared keys for transmitting encrypted information and authorizing users.
+</b></details>
+
+<details>
+<summary>Explain MFA (Multi-Factor Authentication)</summary><br><b>
+
+Multi-Factor Authentication (Also known as 2FA). Allows the user to present two pieces of evidence, credentials, when logging into an account.
+
+- The credentials fall into any of these three categories: something you know (like a password or PIN), something you have (like a smart card), or something you are (like your fingerprint).  Credentials must come from two different categories to enhance security.
+</b></details>
+
+<details>
+<summary>Explain OAuth</summary><br><b>
+</b></details>
+
+#### Security - Passwords
+
+<details>
+<summary>How do you manage sensitive information (like passwords) in different tools and platforms?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What password attacks are you familiar with?</summary><br><b>
+
+  * Dictionary
+  * Brute force
+  * Password Spraying
+  * Social Engineering
+    * Whaling
+    * Vishing
+    * Phising
+    * Whaling
+</b></details>
+
+<details>
+<summary>How to mitigate password attacks?</summary><br><b>
+
+  * Strong password policy
+  * Do not reuse passwords
+  * ReCaptcha
+  * Training personnel against Social Engineering
+  * Risk Based Authentication
+  * Rate limiting
+  * MFA
+</b></details>
+
+<details>
+<summary>What is password salting? What attack does it help to deter?</summary><br><b>
+
+Password salting is the processing of prepending or appending a series of characters to a user's password before hashing this new combined value. This value should be different for every single user but the same salt should be applied to the same user password every time it is validated.
+
+ This ensures that users that have the same password will still have very different hash values stored in the password database. This process specifically helps deter rainbow table attacks since a new rainbow table would need to be computed for every single user in the database.
+</b></details>
+
+#### Security - Cookies
+
+<details>
+<summary>What are cookies? Explain cookie-based authentication</summary><br><b>
+</b></details>
+
+<details>
+<summary>True or False? Cookie-based authentication is stateful</summary><br><b>
+
+True. Cookie-based authentication session must be kept on both server and client-side.
+</b></details>
+
+<details>
+<summary>Explain the flow of using cookies</summary><br><b>
+
+1. User enters credentials
+2. The server verifies the credentials -> a sessions is created and stored in the database
+3. A cookie with the session ID is set in the browser of that user
+4. On every request, the session ID is verified against the database
+5. The session is destroyed (both on client-side and server-side) when the user logs out
+</b></details>
+
+#### Security - SSH
+
+<details>
+<summary>What is SSH how does it work?</summary><br><b>
+
+[Wikipedia Definition](https://en.wikipedia.org/wiki/SSH_(Secure_Shell)): "SSH or Secure Shell is a cryptographic network protocol for operating network services securely over an unsecured network."
+
+[Hostinger.com Definition](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work): "SSH, or Secure Shell, is a remote administration protocol that allows users to control and modify their remote servers over the Internet."
+
+[This site](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work) explains it in a good way.
+</b></details>
+
+<details>
+<summary>What is the role of an SSH key?</summary><br><b>
+ 
+[Wikipedia definition](https://en.wikipedia.org/wiki/Secure_Shell) : SSH uses public-key cryptography to authenticate the remote computer and allow it to authenticate the user. Two keys are created, private is stored inside user's computer to decrypt the communication then the public key is stored inside the remoted computer where user want to connect with and it is used to encrypt the communication.
+ 
+</b></details>
+
+#### Security - Cryptography
+
+<details>
+<summary>Explain Symmetrical encryption</summary><br><b>
+
+A symmetric encryption is any technique where a key is used to both encrypt and decrypt the data/entire communication.
+</b></details>
+
+<details>
+<summary>Explain Asymmetrical encryption</summary><br><b>
+
+A asymmetric encryption is any technique where the there is two different keys that are used for encryption and decryption, these keys are known as public key and private key.
+</b></details>
+
+<details>
+<summary>What is "Key Exchange" (or "key establishment") in cryptography?</summary><br><b>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Key_exchange): "Key exchange (also key establishment) is a method in cryptography by which cryptographic keys are exchanged between two parties, allowing use of a cryptographic algorithm."
+</b></details>
+
+<details>
+<summary>True or False? The symmetrical encryption is making use of public and private keys where the private key is used to decrypt the data encrypted with a public key</summary><br><b>
+
+False. This description fits the asymmetrical encryption.
+</b></details>
+
+<details>
+<summary>True or False? The private key can be mathematically computed from a public key</summary><br><b>
+False.
+</b></details>
+
+<details>
+<summary>True or False? In the case of SSH, asymmetrical encryption is not used to the entire SSH session</summary><br><b>
+
+True. It is only used during the key exchange algorithm of symmetric encryption.
+</b></details>
+
+<details>
+<summary>What is Hashing?</summary><br><b>
+
+Hashing is a mathematical function for mapping data of arbitrary sizes to fixed-size values. This function produces a "digest" of the data that can be used for verifying that the data has not been modified (amongst other uses)
+</b></details>
+
+<details>
+<summary>How is hashing different from encryption?</summary><br><b>
+
+Encrypted data can be decrypted to its original value. Hashed data cannot be reversed to view the original data - hashing is a one-way function.
+</b></details>
+
+<details>
+<summary>How hashes are part of SSH?</summary><br><b>
+
+Hashes used in SSH to verify the authenticity of messages and to verify that nothing tampered with the data received.
+</b></details>
+
+#### Security - Attacks, Threats, and Vulnerabilities
+<details>
+<summary>Explain the following:
+
+  * Vulnerability
+  * Exploits
+  * Risk
+  * Threat</summary><br><b>
+</b></details>
+
+<details>
+<summary>Are you familiar with "OWASP top 10"?</summary><br><b>
+
+Read about it [here](https://owasp.org/www-project-top-ten)
+</b></details>
+
+<details>
+<summary>What is XSS?</summary><br><b>
+
+Cross Site Scripting (XSS) is an type of a attack when the attacker inserts browser executable code within a HTTP response. Now the injected attack is not stored in the web application, it will only affect the users who open the maliciously crafted link or third-party web page. A successful attack allows the attacker to access any cookies, session tokens, or other sensitive information retained by the browser and used with that site 
+
+You can test by detecting user-defined variables and how to input them. This includes hidden or non-obvious inputs such as HTTP parameters, POST data, hidden form field values, and predefined radio or selection values. You then analyze each found vector to see if their are potential vulnerabilities, then when found you craft input data with each input vector. Then you test the crafted input and see if it works.
+</b></details>
+
+<details>
+<summary>What is an SQL injection? How to manage it?</summary><br><b>
+
+SQL injection is an attack consists of inserts either a partial or full SQL query through data input from the browser to the web application. When a successful SQL injection happens it will allow the attacker to read sensitive information stored on the database for the web application. 
+
+You can test by using a stored procedure, so the application must be sanitize the user input to get rid of the risk of code injection. If not then the user could enter bad SQL, that will then be executed within the procedure
+</b></details>
+
+<details>
+<summary>What is Certification Authority?</summary><br><b>
+</b></details>
+
+<details>
+<summary>How do you identify and manage vulnerabilities?</summary><br><b>
+</b></details>
+
+<details>
+<summary>Explain "Privilege Restriction"</summary><br><b>
+</b></details>
+
+<details>
+<summary>How HTTPS is different from HTTP?</summary><br><b>
+The 'S' in HTTPS stands for 'secure'. HTTPS uses TLS to provide encryption of HTTP requests and responses, as well as providing verifaction by digitally signing requests and responses. As a result, HTTPS is far more secure than HTTP and is used by default for most modern websites.
+</b></details>
+
+<details>
+<summary>What types of firewalls are there?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is DDoS attack? How do you deal with it?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is port scanning? When is it used?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is the difference between asynchronous and synchronous encryption?</summary><br><b>
+</b></details>
+
+<details>
+<summary>Explain Man-in-the-middle attack</summary><br><b>
+</b></details>
+
+<details>
+<summary>Explain CVE and CVSS</summary><br><b>
+ 
+  [Red Hat](https://www.redhat.com/en/topics/security/what-is-cve#how-does-it-work) : "When someone refers to a CVE (Common Vulnerabilities and Exposures), they mean a security flaw that's been assigned a CVE ID number. They don’t include technical data, or information about risks, impacts, and fixes." So CVE is just identified by an ID written with 8 digits. The CVE ID have the following format:  CVE prefix + Year + Arbitrary Digits.
+ Anyone can submit a vulnerability, [Exploit Database](https://www.exploit-db.com/submit) explains how it works to submit.
   
-  
+Then CVSS stands for Common Vulnerability Scoring System, it attempts to assign severity scores to vulnerabilities, allowing to ordonnance and prioritize responses and resources according to threat. 
+ 
+</b></details>
+
+<details>
+<summary>What is ARP Poisoning?</summary><br><b>
+</b></details>
+
+<details>
+<summary>Describe how do you secure public repositories</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is DNS Spoofing? How to prevent it?</summary><br><b>
+
+DNS spoofing occurs when a particular DNS server’s records of “spoofed” or altered maliciously to redirect traffic to the attacker. This redirection of traffic allows the attacker to spread malware, steal data, etc.
+
+**Prevention**
+- Use encrypted data transfer protocols - Using end-to-end encryption vian SSL/TLS will help decrease the chance that a website / its visitors are compromised by DNS spoofing.
+- Use DNSSEC - DNSSEC, or Domain Name System Security Extensions, uses digitally signed DNS records to help determine data authenticity.
+- Implement DNS spoofing detection mechanisms - it’s important to implement DNS spoofing detection software. Products such as XArp help product against ARP cache poisoning by inspecting the data that comes through before transmitting it.
+</b></details>
+
+<details>
+<summary>What can you tell me about Stuxnet?</summary><br><b>
+
+Stuxnet is a computer worm that was originally aimed at Iran’s nuclear facilities and has since mutated and spread to other industrial and energy-producing facilities. The original Stuxnet malware attack targeted the programmable logic controllers (PLCs) used to automate machine processes. It generated a flurry of media attention after it was discovered in 2010 because it was the first known virus to be capable of crippling hardware and because it appeared to have been created by the U.S. National Security Agency, the CIA, and Israeli intelligence.
+</b></details>
+
+<details>
+<summary>What can you tell me about the BootHole vulnerability?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What can you tell me about Spectre?</summary><br><b>
+
+Spectre is an attack method which allows a hacker to “read over the shoulder” of a program it does not have access to. Using code, the hacker forces the program to pull up its encryption key allowing full access to the program
+</b></details>
+
+<details>
+<summary>Explain "Format String Vulnerability"</summary><br><b>
+</b></details>
 
 
+<details>
+<summary>Explain DMZ</summary><br><b>
+</b></details>
+
+<details>
+<summary>Explain TLS</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is CSRF? How to handle CSRF?</summary><br><b>
+
+Cross-Site Request Forgery (CSRF) is an attack that makes the end user to initiate a unwanted action on the web application in which the user has a authenticated session, the attacker may user an email and force the end user to click on the link and that then execute malicious actions. When an CSRF attack is successful it will compromise the end user data 
+
+You can use OWASP ZAP to analyze a "request", and if it appears that there no protection against cross-site request forgery when the Security Level is set to 0 (the value of csrf-token is SecurityIsDisabled.) One can use data from this request to prepare a CSRF attack by using OWASP ZAP
+</b></details>
+
+<details>
+<summary>Explain HTTP Header Injection vulnerability</summary><br><b>
+
+HTTP Header Injection vulnerabilities occur when user input is insecurely included within server responses headers. If an attacker can inject newline characters into the header, then they can inject new HTTP headers and also, by injecting an empty line, break out of the headers into the message body and write arbitrary content into the application's response.
+</b></details>
+
+<details>
+<summary>What security sources are you using to keep updated on latest news?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What TCP and UDP vulnerabilities are you familiar with?</summary><br><b>
+</b></details>
+
+<details>
+<summary>Do using VLANs contribute to network security?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What are some examples of security architecture requirements?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is air-gapped network (or air-gapped environment)? What its advantages and disadvantages?</summary><br><b>
+</b></details>
+
+<details>
+<summary>Explain what is Buffer Overflow</summary><br><b>
+
+A buffer overflow (or buffer overrun) occurs when the volume of data exceeds the storage capacity of the memory buffer. As a result, the program attempting to write the data to the buffer overwrites adjacent memory locations.
+</b></details>
+
+<details>
+<summary>What is Nonce?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is SSRF?</summary><br><b>
+
+SSRF (Server-side request forgery) it's a vulnerability where you can make a server make arbitrary requests to anywhere you want.
+
+Read more about it at [portswigger.net](https://portswigger.net/web-security/ssrf)
+</b></details>
+
+<details>
+<summary>Explain MAC flooding attack</summary><br><b>
+
+MAC address flooding attack (CAM table flooding attack) is a type of network attack where an attacker connected to a switch port floods the switch interface with very large number of Ethernet frames with different fake source MAC address.
+</b></details>
+
+<details>
+<summary>What is port flooding?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is "Diffie-Hellman key exchange" and how does it work?</summary><br><b>
+
+Have you heard of [The Two General's Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)? The Diffie-Hellman key exchange is a solution to this problem to allow for the secure exchange of cryptographic keys over an encrypted channel.
+
+It works using public/private key pairs (asymmetric encryption). Two parties that wish to communicate securely over a public channel will each generate a public/private key pair and distribute the public key to the other party (note that public keys are free to be exchanged over a public channel). From here, each party can derive a shared key using a combination of their personal private key and the public key of the other party. This combined key can now be used as a symmetric encryption key for communications.
+</b></details>
+
+<details>
+<summary>Explain "Forward Secrecy"</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is Cache Poisoned Denial of Service?</summary><br><b>
+
+CPDoS or Cache Poisoned Denial of Service. It poisons the CDN cache. By manipulating certain header requests, the attacker forces the origin server to return a Bad Request error which is stored in the CDN’s cache. Thus, every request that comes after the attack will get an error page.
+</b></details>
+
+<details>
+<summary>What is the difference if any between SSL and TLS?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What's SSL termination (or SSL offloading)?</summary><br><b>
+
+SSL termination is the process of decrypting encrypted traffic. The advantage in SSL termination is that the server doesn't have to perform it, we can use SSL termination to reduce the load on the server, speed up some processes, and allow the server to focus on its core functionality (e.g. deliver content)
+</b></details>
+
+<details>
+<summary>What is SNI (Server Name Indication)?</summary><br><b>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Server_Name_Indication): "an extension to the Transport Layer Security (TLS) computer networking protocol by which a client indicates which hostname it is attempting to connect to at the start of the handshaking process"
+</b></details>
+
+<details>
+<summary>What benefits SNI introduces?</summary><br><b>
+
+SNI allows a single server to serve multiple certificates using the same IP and port.<br>
+Practically this means that a single IP can server multiple web services/pages, each using a different certificate.
+</b></details>
+
+<details>
+<summary>Explain "Web Cache Deception Attach"</summary><br><b>
+
+[This blog post](https://omergil.blogspot.com/2017/02/web-cache-deception-attack.html) explains it in detail.
+</b></details>
+
+#### Security - Threats
+
+<details>
+<summary>Explain "Advanced persistent threat (APT)"</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is a "Backdoor" in information security?</summary><br><b>
+</b></details>
+
+#### Software Supply Chain & Security 
+
+<details>
+<summary>Briefly describe what a software supply chain is. </summary><br><b>
+
+A company’s software supply chain consists of any third party or open source component which could be used to compromise the final product. Such component is usually an API provided by an actor. For instance Twilio who offers mobile communication APIs to their customers. 
+
+[WhiteSource](https://www.whitesourcesoftware.com/resources/blog/software-supply-chain-security-the-basics-and-four-critical-best-practices/): "Enterprise software projects increasingly depend on third-party and open source components. These components are created and maintained by individuals who are not employed by the organization developing the primary software, and who do not necessarily use the same security policies as the organization. This poses a security risk, because differences or inconsistencies between these policies can create overlooked areas of vulnerability that attackers seek to exploit." 
+</b></details>
+
+<details>
+<summary>What're some benefits of a software supply chain? </summary><br><b>
+
+[Increment](https://increment.com/apis/apis-supply-chain-software/): Resource-saving. Using and paying for existing solutions to resource-heavy problems saves time as well as money. Hence resulting in efficient, cheap and greater opportunities to develop and deploy software products for consumers. 
+</b></details>
+
+<details>
+<summary> Give three examples of three potential security threats related to the software supply chain and describe them.</summary><br><b>
+
+[IEEE](https://ieeexplore.ieee.org/abstract/document/9203862): 
+
+  * Sensitive data being exposed or lost.
+    * In a software supply chain, sensitive data may be passed throughout the chain. Security threats involve loss or exposure of this data, such as customer credit card details.
+  * Cloud technology.
+    * Data sharing in the cloud might jeopardize the privacy of the data within the chain.
+  * Third-party vendors.
+    * Third-party vendors’ code solutions might not provide sufficient cybersecurity and risk being a potential subject to data breaches.
+</b></details>
+
+#### Package management & Security 
+
+<details>
+<summary> What is a package manager?
+</summary><br><b>
+
+[Baudry et al.](https://arxiv.org/pdf/2001.07808.pdf): "A tool that allows you to easily download, add and thus reuse programming libraries in your project." E.g. npm or yarn.
+</b></details>
+
+<details>
+<summary> What is a build tool?
+</summary><br><b>
+
+[Baudry et al.](https://arxiv.org/pdf/2001.07808.pdf): "A tool that fetches the packages (dependencies) that are required to compile, test and deploy your application." 
+</b></details>
+
+<details>
+<summary> Describe bloated dependencies.
+</summary><br><b>
+
+[Baudry et al.](https://arxiv.org/pdf/2001.07808.pdf): 
+An application usually has different dependencies. Typically, not all of them are required for building and running the application. Bloated dependencies is the concept of including the unnecessary dependencies for building and running your application. 
+</b></details>
+
+<details>
+<summary> Explain a few cons of bloated dependencies.
+</summary><br><b>
+
+[Baudry et al.](https://arxiv.org/pdf/2001.07808.pdf): 
+
+  * Challenging to manage.
+  * Decreases performance of the application.
+  * Risk for malicious code that a threathening actor can take advantage of. 
+</b></details>
+
+<details>
+<summary> What solutions are there for managing project dependencies?
+</summary><br><b>
+
+[Npm.js documentation](https://docs.npmjs.com/cli/v8/commands/npm-prune): Use clean-up commands that are usually provided by the package manager authors. For instance, npm prune will remove any extraneous package. Another command is npm audit which will scan your repository and report any vulnerable dependencies found.
+</b></details>
+
+<details>
+<summary> What is a threatening actor and how can this actor take advantage of open source or third party vendor's packages/libraries? 
+</summary><br><b>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Threat_actor): A threatening actor is one or more people who target technical artifacts such as software, networks and/or devices with the purpose of harming it.
+
+[Aquasec](https://www.aquasec.com/cloud-native-academy/devsecops/supply-chain-security/): An attacking actor may identify, target and inject malicious software in a vulnerable part of an open source package or a third party vendor’s code. The consumer of this code may consequently and unknowingly deploy the malicious code throughout their pipelines, thus infecting their own projects. An example of this happening is the hack of [SolarWinds](https://www.npr.org/2021/04/16/985439655/a-worst-nightmare-cyberattack-the-untold-story-of-the-solarwinds-hack).
+</b></details>
+
+<details>
+<summary> How can you make sure that you use trustworthy packages for your project?
+</summary><br><b>
+
+You can’t. You will always be exposed to security risk once you start using open source or vendor packages. The goal is to minimize the risk in order to avoid security breaches. This could be done by:
+
+  * Regularly update the project's dependencies to apply latest bug fixes and vulnerability clean-ups.
+  * However, unless you trust the author, do not update your dependencies instantly, since package updates recently have been a common target by hackers.
+  * Check for changes of the file content in previous versions. 
+</b></details>
+
+<details>
+<summary> Explain checksum.
+</summary><br><b>
+
+[Fred Cohen (permission needed)](https://reader.elsevier.com/reader/sd/pii/0167404887900319?token=D5339ABC064AD9A2B50B74D8CE890B0E22A302A0BC461A50078D407BEA01052737DC6AAEF95A854E72A73B6D0C67E260&originRegion=eu-west-1&originCreation=20220502180611): Checksum is a way to verify the integrity of information in systems with no built-in protection. In other words, it provides a way of validating that the content of a file or a package / library is intact. This is useful since attacks or errors may occur during transmission of files. However, it requires that the package author has run a checksum function for the file / package which creates a specific hash for that version of the file. A minor change of the file content will result in a different checksum. If you have access to the original checksum of the file, you may run checksum on your own. In case the resulting checksum matches the original one, no changes have been made in the file. You can now conclude that no error or malicious injection was done during transmission of the file. 
+</b></details>
+
+## Microsegmentation
+
+<details>
+<summary>What is Microsegmentation?</summary><br><b>
+
+- Security method
+- Managing network access between endpoints (processes, devices, instances)
+- A method in which security policies are applied to limit traffic
+  - based on concepts such as "Zero Trust" and "Least Privileged"
+- The result of Microsegmentation should be:
+  - Reduced attack ability
+  - Better breach containment
+</b></details>
+
+<details>
+<summary>Why do we need Microsegmentation solutions? Why using something such as firewalls isn't enough?</summary><br><b>
+
+- Firewalls focused on north-south traffic. Basically traffic that is outside of the company perimeter
+- Traffic that is considered west-east, internal workflows and communication, is usually left untreated
+</b></details>
+
+<details>
+<summary>How Microsegmentation is applied?</summary><br><b>
+
+ There are different ways to apply Microsegmentation:
+
+- Cloud Native: Using cloud embedded capabilities such as security groups, firewalls, etc.
+- Agent: Agents running on the different endpoints (instances, services, etc.)
+- Network: Modify network devices and their configuration to create microsegmentation 
+
+</b></details>
