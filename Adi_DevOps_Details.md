@@ -267,3 +267,33 @@ For Scripting, you can find interview questions and answers on platforms like Gi
 **Bash_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Bash_Scripting_README.md)
 
 **Python_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Python_Scripting_README.md)
+
+
+**DevOps security**
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+DevOps security refers to the practices, processes, and tools used to integrate security measures into the DevOps pipeline. It aims to ensure that security is not an afterthought but rather an integral part of the software development and deployment lifecycle. Here's a smart breakdown of DevOps security:
+
+1. **Shift-Left Approach**: DevOps security advocates for a "shift-left" approach, where security considerations are brought into the development process as early as possible. This means incorporating security into the planning, design, coding, and testing phases.
+
+2. **Automation**: Automation plays a crucial role in DevOps security. Security checks, such as vulnerability scanning, code analysis, and compliance checks, are automated and integrated into the CI/CD pipeline. This ensures that security measures are consistently applied and enforced throughout the development process.
+
+3. **Continuous Monitoring**: DevOps security involves continuous monitoring of applications and infrastructure to detect and respond to security threats in real-time. Monitoring tools provide visibility into the environment, enabling teams to identify vulnerabilities, anomalies, and suspicious activities promptly.
+
+4. **Infrastructure as Code (IaC)**: IaC principles, where infrastructure is defined and managed through code, enhance security by enabling version control, auditability, and repeatability. Security configurations can be codified and applied consistently across environments, reducing the risk of misconfigurations.
+
+5. **Container Security**: With the widespread adoption of containerization and orchestration technologies like Docker and Kubernetes, DevOps teams must address container security challenges. This includes ensuring secure container images, implementing access controls, and monitoring containerized environments for vulnerabilities and runtime threats.
+
+6. **Collaboration and Communication**: DevOps security fosters collaboration and communication between development, operations, and security teams. Security requirements and best practices are shared transparently, and cross-functional teams work together to address security concerns proactively.
+
+7. **Compliance and Governance**: DevOps security aligns with compliance requirements and industry regulations by incorporating security controls, audit trails, and documentation into the development process. Automated compliance checks help ensure that software deployments adhere to regulatory standards.
+
+8. **Threat Modeling and Risk Assessment**: DevOps security involves conducting threat modeling and risk assessments to identify potential security risks and prioritize mitigation efforts. By understanding the threat landscape, teams can proactively address security vulnerabilities and minimize exposure to threats.
+
+For DevOps Security, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for DevOps Security-related discussions.
+
+**Devops Security Quetions and Answers▶️**
+
+**Bash_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/new/DevOps_Security)
