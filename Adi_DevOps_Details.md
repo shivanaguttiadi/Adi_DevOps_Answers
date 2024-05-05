@@ -127,7 +127,7 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 
 **CICD pipelines Quetions and Answers▶️**
 
-**Jenkins_cicd ANswers**▶️[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md))
+**Jenkins_cicd ANswers**▶️[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/Jenkins_cicd_answers_README.md)
 
 **Azure-DevOps_cicd ANswers**▶️[**clickhere**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/Azure_DevOps_Answers_README.md)
 
