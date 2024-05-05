@@ -126,9 +126,12 @@ Azure DevOps is a cloud-based collaboration platform provided by Microsoft, offe
 For CICD, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for CICD-related discussions.
 
 **CICD pipelines Quetions and Answers▶️**
-**Jenkins_cicd ANswers**[**click here**] ▶️(https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md))
 
-**Azure-DevOps_cicd ANswers**[**click here**] ▶️(https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/Azure_DevOps_Answers_README.md)
+**Jenkins_cicd ANswers**▶️[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/cicd_answers_README.md))
+
+**Azure-DevOps_cicd ANswers**▶️[**clickhere**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/Azure_DevOps_Answers_README.md)
+
+
 -------------------------------------------------------------------------------------------------------------------
 
 
