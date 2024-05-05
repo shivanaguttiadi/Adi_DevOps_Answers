@@ -23,7 +23,8 @@
 
 For AWS, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
 
-****AWS Cloud Quetions and Answers ▶️**[click here]**(https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
+**AWS Cloud Quetions and Answers ▶️**
+**[click here]**(https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 
 
 **TERRAFORM**
@@ -41,7 +42,7 @@ Terraform supports a wide range of cloud providers, including AWS, Azure, Google
 For Terraform, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for Terraform-related discussions.
 
 **Terraform Cloud Quetions and Answers ▶️**
-[click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Terraform)
+**[click here]**(https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Terraform)
 
 **CICD **
 
@@ -59,7 +60,7 @@ Azure DevOps: Azure DevOps is a cloud-based collaboration platform provided by M
 For CICD, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for CICD-related discussions.
 
 **CICD Cloud Quetions and Answers▶️**
-[click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
+**[click here]**(https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
 
 
 
