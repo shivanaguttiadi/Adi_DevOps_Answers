@@ -67,7 +67,7 @@ Key Features of Linux:
 For Linux, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for Linux-related discussions.
 
 **Linux Quetions and Answers ▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Linux)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Linux/Linux_Answers_README.md)
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -161,7 +161,8 @@ Docker is a transformative technology in modern software development. It facilit
 For Docker, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Docker-related discussions.
 
 **Docker Quetions and Answers▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Docker/Docker_Answers_README.me)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Docker/Docker_Answers_README.md)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
