@@ -27,9 +27,9 @@
 
 **✈️ Monitioring Quetions and Answers✈️**
 
-**✈️ ToublShooting Quetions and Answers✈️**
+**✈️ Troubleshooting Quetions and Answers✈️**
 
-**✈️ Self Quetions and Answers✈️**
+**✈️ Basic_Over all Quetions and Answers✈️**
 
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
@@ -344,5 +344,30 @@ For Monitoring, you can find interview questions and answers on platforms like G
 
 -----------------------------------------------------------------------------------------------------------------
 
+**Basic_Over all**
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/assets/143313733/c19a9ba7-3dff-4c92-8fff-507f146ac78d)
 
+**Basic conspets for below requirments**
 
+1. **Cloud Cost Optimizations:**
+   - **Smart Explanation:** Cloud cost optimization involves strategies and techniques aimed at minimizing expenses while maximizing the efficiency of cloud resources. This includes rightsizing instances, leveraging discounts like Reserved Instances or Savings Plans, optimizing storage usage, implementing auto-scaling, and monitoring resource utilization to identify cost-saving opportunities.
+
+2. **General Interview:**
+   - **Smart Explanation:** General interviews in a DevOps and cloud context typically cover a wide range of topics, including your experience with various tools and technologies, problem-solving abilities, understanding of DevOps principles, familiarity with cloud platforms like AWS, Azure, or GCP, and your approach to collaboration and teamwork.
+
+3. **Basic Troubleshooting:**
+   - **Smart Explanation:** Basic troubleshooting skills are essential in DevOps for identifying and resolving issues efficiently. This involves a systematic approach to problem-solving, including gathering information about the issue, isolating the root cause, implementing solutions or workarounds, and verifying that the problem has been resolved. Troubleshooting may involve debugging code, analyzing logs, checking system metrics, and collaborating with team members to resolve complex issues.
+
+By explaining these topics in a concise and smart manner, you can effectively convey your understanding and expertise in DevOps and cloud-related areas during interviews or discussions. If you have any specific questions or need further clarification, feel free to ask!
+
+**Monitoring Quetions and Answers**
+
+**Cloud Cost Optimizations** ▶️ [**click here**] (https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Cloud_Cost.README.md)
+
+**General Interview** ▶️ [**click here**] (https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Self_Prepare.READM.md)
+
+**Basic Troubleshooting** ▶️ [**click here**] (https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/troubleshooting_Answers_README.md)
+
+-----------------------------------------------------------------------------------------------------------------
