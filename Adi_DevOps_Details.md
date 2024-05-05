@@ -198,7 +198,7 @@ Overall, Ansible simplifies IT automation by providing a powerful yet easy-to-us
 For Ansible, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Ansible-related discussions.
 
 **Ansible Quetions and Answers▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Ansible)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Ansible/Ansible_Answers_README.md)
 
 
 -------------------------------------------------------------------------------------------------------------------
