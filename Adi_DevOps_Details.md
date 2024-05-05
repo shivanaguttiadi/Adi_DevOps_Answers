@@ -21,7 +21,9 @@
 
 
 **AWS** 
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fcdn-uploads%2F20200706231831%2FAWS-2.png&tbnid=V_QwH81F2gNxrM&vet=12ahUKEwixvouR5PWFAxVE3DgGHZDZDVUQMyglegUIARDHAQ..i&imgrefurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Faws-full-form%2F&docid=V4ArvsZphNM_hM&w=900&h=385&q=aws%20image&ved=2ahUKEwixvouR5PWFAxVE3DgGHZDZDVUQMyglegUIARDHAQ
+![Uploading image.png…]()
+
+
  Amazon Web Services, which is a cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage options, database management, machine learning, networking, and more, all delivered over the internet. AWS enables businesses to access scalable and reliable infrastructure without the need for physical hardware investments.
 
 For AWS, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
