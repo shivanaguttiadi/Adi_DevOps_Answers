@@ -1,6 +1,6 @@
 **The Below URL's Details**
 
--------------------------------------------------------------------------------------------------------------------___________________________________________________________________________________________________________________
+-------------------------------------------------------------------------------------------------------------------
 
 **Hi Folks!!!**  You can explore interview questions and answers for specific technologies like AWS, Ansible, Terraform, CI/CD, Git, Kubernetes, and Linux on platforms like GitHub. Just search for repositories related to these technologies to find valuable resources for your preparation. 
 **Good luck**
@@ -23,6 +23,7 @@
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 
+
 **☁️ AWS:** 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -36,8 +37,8 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 -------------------------------------------------------------------------------------------------------------------
 
-**Linux:**
 
+**Linux:**
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/aa463264-4b53-4796-9c75-8c504ec7dfa6)
 
