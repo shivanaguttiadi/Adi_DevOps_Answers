@@ -1,5 +1,7 @@
 **The Below URL's Details**
 
+-------------------------------------------------------------------------------------------------------------------___________________________________________________________________________________________________________________
+
 **Hi Folks!!!**  You can explore interview questions and answers for specific technologies like AWS, Ansible, Terraform, CI/CD, Git, Kubernetes, and Linux on platforms like GitHub. Just search for repositories related to these technologies to find valuable resources for your preparation. 
 **Good luck**
 
@@ -18,11 +20,11 @@
 **✈️ Ansible Quetions and Answers**
 
 **✈️ Scripting Quetions and Answers**
-
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 
 **☁️ AWS:** 
+
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/e3cf0af5-2d7a-491f-91bb-0e88288c8f41)
 
@@ -32,10 +34,10 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 
 **AWS Cloud Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
-
 -------------------------------------------------------------------------------------------------------------------
 
 **Linux:**
+
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/aa463264-4b53-4796-9c75-8c504ec7dfa6)
 
@@ -60,11 +62,11 @@ For Linux, you can find AWS interview questions and answers on platforms below l
 
 **Linux Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Linux)
-
 -------------------------------------------------------------------------------------------------------------------
 
 **TERRAFORM:**
---------------
+
+-------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/b5b15fbe-75cc-44c5-8b76-02454e14fa37)
 
 Terraform is an open-source infrastructure as code tool developed by HashiCorp. It enables users to define and provision infrastructure using declarative configuration files, known as Terraform scripts. These scripts describe the desired state of the infrastructure, including resources such as virtual machines, networks, storage, and more.
@@ -81,11 +83,11 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 **Terraform Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Terraform)
-
 -------------------------------------------------------------------------------------------------------------------
 
 
 **CICD:**
+
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/f23606c0-debc-4881-a691-50c75ce76dd9)
 
@@ -104,11 +106,11 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 
 **CICD pipelines Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
-
 -------------------------------------------------------------------------------------------------------------------
 
 
 **GIT**
+
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/0cf0a10b-00ee-4a16-82f2-d2d590e84b12)
 Git is a distributed version control system widely used in software development to track changes in source code during the development process. It allows multiple developers to collaborate on projects efficiently and ensures that changes are properly managed and tracked. Here's a brief explanation of Git:
@@ -137,11 +139,11 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 
 **Git scm Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Git)
-
 -------------------------------------------------------------------------------------------------------------------
 
 
 **Kubernetes**
+
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/3624c709-a2d3-49c5-8860-c42ce4da5737)
 
@@ -169,12 +171,11 @@ For Kubernetes, you can find interview questions and answers on platforms like G
 
 ** Kubernetes Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Kubernetes)
-
-
 -------------------------------------------------------------------------------------------------------------------
 
 
 **Ansible**
+
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/ff422095-a45b-4d63-b854-b4ca115f283f)
 
