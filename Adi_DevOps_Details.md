@@ -1,5 +1,6 @@
-**The Below URL Details **
-** Hi Folks!!!**  You can explore interview questions and answers for specific technologies like AWS, Ansible, Terraform, CI/CD, Git, Kubernetes, and Linux on platforms like GitHub. Just search for repositories related to these technologies to find valuable resources for your preparation. 
+**The Below URL's Details**
+
+**Hi Folks!!!**  You can explore interview questions and answers for specific technologies like AWS, Ansible, Terraform, CI/CD, Git, Kubernetes, and Linux on platforms like GitHub. Just search for repositories related to these technologies to find valuable resources for your preparation. 
 **Good luck**
 
 **✈️ AWS Cloud Quetions and Answers**
@@ -19,7 +20,7 @@
 **✈️ Scripting Quetions and Answers**
 
 
-**AWS** 
+**AWS** https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSagNfRjEXt6ZLLwn_OoHhl0l0Y-QqCoOAPIA&usqp=CAU
  
  Amazon Web Services, which is a cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage options, database management, machine learning, networking, and more, all delivered over the internet. AWS enables businesses to access scalable and reliable infrastructure without the need for physical hardware investments.
 
