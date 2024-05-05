@@ -71,7 +71,7 @@ For Linux, you can find AWS interview questions and answers on platforms below l
 
 
 **TERRAFORM:**
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/b5b15fbe-75cc-44c5-8b76-02454e14fa37)
 
 Terraform is an open-source infrastructure as code tool developed by HashiCorp. It enables users to define and provision infrastructure using declarative configuration files, known as Terraform scripts. These scripts describe the desired state of the infrastructure, including resources such as virtual machines, networks, storage, and more.
@@ -94,8 +94,7 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 
 **CICD:**
-
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/f23606c0-debc-4881-a691-50c75ce76dd9)
 
 CI/CD stands for Continuous Integration/Continuous Deployment, which is a set of practices and principles aimed at automating the process of software delivery. It encompasses both Continuous Integration (CI) and Continuous Deployment (CD), which are integral parts of modern software development workflows.
@@ -117,10 +116,9 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 -------------------------------------------------------------------------------------------------------------------
 
 
-
 **GIT**
 
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/0cf0a10b-00ee-4a16-82f2-d2d590e84b12)
 Git is a distributed version control system widely used in software development to track changes in source code during the development process. It allows multiple developers to collaborate on projects efficiently and ensures that changes are properly managed and tracked. Here's a brief explanation of Git:
 
@@ -154,8 +152,7 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 
 
 **Kubernetes**
-
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/3624c709-a2d3-49c5-8860-c42ce4da5737)
 
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. Here's a brief explanation of Kubernetes:
@@ -186,10 +183,8 @@ For Kubernetes, you can find interview questions and answers on platforms like G
 -------------------------------------------------------------------------------------------------------------------
 
 
-
 **Ansible**
-
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/ff422095-a45b-4d63-b854-b4ca115f283f)
 
 Ansible is an open-source automation tool used for configuration management, application deployment, and orchestration. It simplifies the process of managing IT infrastructure by allowing users to automate repetitive tasks such as provisioning servers, configuring software, and deploying applications.
