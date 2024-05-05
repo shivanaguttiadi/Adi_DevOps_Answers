@@ -35,12 +35,12 @@
 For AWS, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
 
 **AWS Cloud Quetions and Answers ▶️**
-
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 -------------------------------------------------------------------------------------------------------------------
 
 
 **Linux:**
+
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/aa463264-4b53-4796-9c75-8c504ec7dfa6)
 
@@ -67,6 +67,7 @@ For Linux, you can find AWS interview questions and answers on platforms below l
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Linux)
 -------------------------------------------------------------------------------------------------------------------
 
+
 **TERRAFORM:**
 
 -------------------------------------------------------------------------------------------------------------------
@@ -87,6 +88,7 @@ For Terraform, you can find Terrform interview questions and answers on platform
 **Terraform Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Terraform)
 -------------------------------------------------------------------------------------------------------------------
+
 
 
 **CICD:**
@@ -110,6 +112,7 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 **CICD pipelines Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
 -------------------------------------------------------------------------------------------------------------------
+
 
 
 **GIT**
@@ -145,6 +148,7 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 -------------------------------------------------------------------------------------------------------------------
 
 
+
 **Kubernetes**
 
 -------------------------------------------------------------------------------------------------------------------
@@ -175,6 +179,7 @@ For Kubernetes, you can find interview questions and answers on platforms like G
 ** Kubernetes Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Kubernetes)
 -------------------------------------------------------------------------------------------------------------------
+
 
 
 **Ansible**
