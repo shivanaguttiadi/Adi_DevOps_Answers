@@ -20,6 +20,7 @@
 **✈️ Ansible Quetions and Answers**
 
 **✈️ Scripting Quetions and Answers**
+
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 
@@ -34,6 +35,7 @@
 For AWS, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
 
 **AWS Cloud Quetions and Answers ▶️**
+
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 -------------------------------------------------------------------------------------------------------------------
 
