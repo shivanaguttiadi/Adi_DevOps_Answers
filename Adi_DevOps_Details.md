@@ -170,7 +170,6 @@ For Docker, you can find interview questions and answers on platforms like GitHu
 
 
 **KUBERENETES:**
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/3624c709-a2d3-49c5-8860-c42ce4da5737)
 
@@ -274,8 +273,8 @@ For Scripting, you can find interview questions and answers on platforms like Gi
 
 
 **DevOps security**
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/assets/143313733/9161eb36-a2c2-47e5-8809-75a0fdf52aed)
 
 DevOps security refers to the practices, processes, and tools used to integrate security measures into the DevOps pipeline. It aims to ensure that security is not an afterthought but rather an integral part of the software development and deployment lifecycle. Here's a smart breakdown of DevOps security:
