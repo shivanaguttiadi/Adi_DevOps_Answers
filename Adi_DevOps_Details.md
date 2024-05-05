@@ -304,11 +304,13 @@ For Security, you can find interview questions and answers on platforms like Git
 
 **Security Quetions and Answers▶️**
 
-**Security_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Security/Security_Answers.README.md)-
+**Security** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Security/Security_Answers.README.md)
 
 -------------------------------------------------------------------------------------------------------------------
 
+
 **Monitoring**
+ 
  ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/assets/143313733/f61bfe83-83d9-463d-8eb0-e3125c2032d1)
 
 Monitoring in DevOps refers to the practice of observing and tracking the performance, availability, and health of software systems and infrastructure components throughout their lifecycle. It involves collecting, analyzing, and visualizing various metrics and logs to gain insights into the behavior of applications and underlying infrastructure, identify anomalies, and troubleshoot issues proactively.
@@ -335,7 +337,7 @@ Overall, effective monitoring practices are essential for maintaining the reliab
 
 For Monitoring, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Monitoring-related discussions.
 
-**Monitoring Quetions and Answers▶️**
+**Monitoring Quetions and Answers**
 
 **Monitoring** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Monitoring/MOnitoring_Answers_README.md)
 
