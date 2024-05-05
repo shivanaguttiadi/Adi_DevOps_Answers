@@ -1,6 +1,6 @@
-**About Git **
+**Git**
 
-**Basic Commands for Git **
+**Basic Commands list for Git**
 
 Here's a list of Git commands along with their common use cases:
 
