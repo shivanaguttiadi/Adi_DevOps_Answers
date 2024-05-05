@@ -23,7 +23,7 @@
 
 For AWS, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
 
-AWS Cloud Quetions and Answers ▶️ 
+**AWS Cloud Quetions and Answers ▶️**
 [click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 
 
@@ -41,7 +41,7 @@ Terraform supports a wide range of cloud providers, including AWS, Azure, Google
 
 For Terraform, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for Terraform-related discussions.
 
-Terraform Cloud Quetions and Answers ▶️ 
+**Terraform Cloud Quetions and Answers ▶️**
 [click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Terraform)
 
 **CICD **
@@ -59,12 +59,12 @@ Azure DevOps: Azure DevOps is a cloud-based collaboration platform provided by M
 
 For CICD, you can find Terrform interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for CICD-related discussions.
 
-▶️
+**CICD Cloud Quetions and Answers▶️**
 [click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
 
 
 
-**Ansible conenete related**
+**Ansible**
 
 Ansible is an open-source automation tool used for configuration management, application deployment, and orchestration. It simplifies the process of managing IT infrastructure by allowing users to automate repetitive tasks such as provisioning servers, configuring software, and deploying applications.
 
@@ -76,7 +76,7 @@ Overall, Ansible simplifies IT automation by providing a powerful yet easy-to-us
 
 For Ansible, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Ansible-related discussions.
 
-▶️
+**Ansible Cloud Quetions and Answers▶️**
 [click here](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Ansible)
 
 
