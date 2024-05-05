@@ -32,6 +32,7 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 **AWS Cloud Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 
+-------------------------------------------------------------------------------------------------------------------
 
 **Linux:**
 
@@ -58,7 +59,7 @@ For Linux, you can find AWS interview questions and answers on platforms below l
 
 **Linux Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Linux)
-
+-------------------------------------------------------------------------------------------------------------------
 
 **TERRAFORM:**
 
@@ -81,7 +82,7 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 **CICD:**
 
-![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/0f8fc6c9-bb63-498d-a0c7-47e836d62728)
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/f23606c0-debc-4881-a691-50c75ce76dd9)
 
 CI/CD stands for Continuous Integration/Continuous Deployment, which is a set of practices and principles aimed at automating the process of software delivery. It encompasses both Continuous Integration (CI) and Continuous Deployment (CD), which are integral parts of modern software development workflows.
 
