@@ -20,8 +20,9 @@
 **✈️ Scripting Quetions and Answers**
 
 
-**AWS** 
 
+
+**AWS** 
 
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/e3cf0af5-2d7a-491f-91bb-0e88288c8f41)
 
