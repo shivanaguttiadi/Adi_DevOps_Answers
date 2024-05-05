@@ -27,7 +27,6 @@
 
 **☁️ AWS:** 
 -------------------------------------------------------------------------------------------------------------------
-
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/e3cf0af5-2d7a-491f-91bb-0e88288c8f41)
 
@@ -43,7 +42,6 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 
 **Linux:**
 -------------------------------------------------------------------------------------------------------------------
-
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/aa463264-4b53-4796-9c75-8c504ec7dfa6)
 
@@ -73,8 +71,7 @@ For Linux, you can find AWS interview questions and answers on platforms below l
 
 
 **TERRAFORM:**
-
--------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/b5b15fbe-75cc-44c5-8b76-02454e14fa37)
 
 Terraform is an open-source infrastructure as code tool developed by HashiCorp. It enables users to define and provision infrastructure using declarative configuration files, known as Terraform scripts. These scripts describe the desired state of the infrastructure, including resources such as virtual machines, networks, storage, and more.
