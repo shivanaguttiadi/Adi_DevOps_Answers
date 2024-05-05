@@ -36,6 +36,7 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 
 **AWS Cloud Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
@@ -65,6 +66,7 @@ For Linux, you can find AWS interview questions and answers on platforms below l
 
 **Linux Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Linux)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
@@ -87,6 +89,7 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 **Terraform Quetions and Answers ▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Terraform)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
@@ -111,6 +114,7 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 
 **CICD pipelines Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_CICD_tools)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
@@ -145,6 +149,7 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 
 **Git scm Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Git)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
@@ -178,6 +183,7 @@ For Kubernetes, you can find interview questions and answers on platforms like G
 
 ** Kubernetes Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_Kubernetes)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
