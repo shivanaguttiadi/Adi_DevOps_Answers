@@ -20,11 +20,10 @@
 **✈️ Scripting Quetions and Answers**
 
 -------------------------------------------------------------------------------------------------------------------
-
+-------------------------------------------------------------------------------------------------------------------
 
 **☁️ AWS:** 
 -------------------------------------------------------------------------------------------------------------------
-
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/e3cf0af5-2d7a-491f-91bb-0e88288c8f41)
 
  Amazon Web Services, which is a cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage options, database management, machine learning, networking, and more, all delivered over the internet. AWS enables businesses to access scalable and reliable infrastructure without the need for physical hardware investments.
@@ -38,7 +37,6 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 
 **Linux:**
 -------------------------------------------------------------------------------------------------------------------
-
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/aa463264-4b53-4796-9c75-8c504ec7dfa6)
 
 Linux: Linux is a free and open-source operating system kernel that serves as the foundation for various Unix-like operating systems, commonly referred to as Linux distributions. Developed by Linus Torvalds in 1991, Linux is built on the principles of open collaboration and community-driven development. It provides a powerful, stable, and customizable platform for running a wide range of applications, from servers and desktops to embedded devices and supercomputers.
@@ -89,7 +87,6 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 **CICD:**
 -------------------------------------------------------------------------------------------------------------------
-
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/f23606c0-debc-4881-a691-50c75ce76dd9)
 
 CI/CD stands for Continuous Integration/Continuous Deployment, which is a set of practices and principles aimed at automating the process of software delivery. It encompasses both Continuous Integration (CI) and Continuous Deployment (CD), which are integral parts of modern software development workflows.
@@ -113,7 +110,7 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 
 **GIT**
 -------------------------------------------------------------------------------------------------------------------
-
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/0cf0a10b-00ee-4a16-82f2-d2d590e84b12)
 Git is a distributed version control system widely used in software development to track changes in source code during the development process. It allows multiple developers to collaborate on projects efficiently and ensures that changes are properly managed and tracked. Here's a brief explanation of Git:
 
 Git: Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It was created by Linus Torvalds in 2005 to manage the development of the Linux kernel and has since become one of the most popular version control systems in the world.
@@ -179,7 +176,6 @@ For Kubernetes, you can find interview questions and answers on platforms like G
 
 **Ansible**
 -------------------------------------------------------------------------------------------------------------------
-
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/ff422095-a45b-4d63-b854-b4ca115f283f)
 
 Ansible is an open-source automation tool used for configuration management, application deployment, and orchestration. It simplifies the process of managing IT infrastructure by allowing users to automate repetitive tasks such as provisioning servers, configuring software, and deploying applications.
