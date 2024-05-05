@@ -5,23 +5,23 @@
 **Hi Folks!!!**  You can explore interview questions and answers for specific technologies like AWS, Ansible, Terraform, CI/CD, Git, Kubernetes, and Linux on platforms like GitHub. Just search for repositories related to these technologies to find valuable resources for your preparation. 
 **Good luck**
 
-**✈️ AWS Cloud Quetions and Answers**
+**✈️ AWS Cloud Quetions and Answers✈️**
 
-**✈️ Linux Quetions and Answers**
+**✈️ Linux Quetions and Answers✈️**
 
-**✈️ Terraform Quetions and Answers**
+**✈️ Terraform Quetions and Answers✈️**
 
-**✈️ CICD  Quetions and Answers**
+**✈️ CICD  Quetions and Answers✈️**
 
-**✈️ Git Quetions and Answers**
+**✈️ Git Quetions and Answers✈️**
 
-**✈️ Docker Quetions and Answers**
+**✈️ Docker Quetions and Answers✈️**
 
-**✈️ Kububenetes Quetions and Answers**
+**✈️ Kububenetes Quetions and Answers✈️**
 
-**✈️ Ansible Quetions and Answers**
+**✈️ Ansible Quetions and Answers✈️**
 
-**✈️ Scripting Quetions and Answers**
+**✈️ Scripting Quetions and Answers✈️**
 
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
