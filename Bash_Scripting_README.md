@@ -336,7 +336,6 @@ These script-level answers demonstrate practical implementations for each scenar
       ```
 
 16. **Script to automate user account management**:
-
 ```bash
 #!/bin/bash
 
@@ -348,7 +347,7 @@ useradd -m -s /bin/bash ${USERNAME}
 
 # Set initial password for user
 echo "${USERNAME}:newpassword" | chpasswd
-
+```
 
 17. **Script to change the password for one member out of three with the same password**:
 ```bash
@@ -368,7 +367,9 @@ curl -X POST http://jenkins-url/job/job-name/build
 ```
 
 19. **Explanation of EC2 and VPC with a script to create them using AWS CLI**:
+
 EC2 (Elastic Compute Cloud) is a web service that provides resizable compute capacity in the cloud, and VPC (Virtual Private Cloud) is a virtual network dedicated to your AWS account. Below is a basic script to create an EC2 instance and VPC using AWS CLI:
+
 ```bash
 #!/bin/bash
 
@@ -448,7 +449,7 @@ else
 fi
 ```
 
-```
+
 25. **Script to backup MySQL databases**:
 ```bash
 #!/bin/bash
