@@ -35,12 +35,12 @@
 For AWS, you can find AWS interview questions and answers on platforms below like GitHub by searching for repositories. These repositories compile questions commonly asked in interviews along with their answers, making it easier to prepare for AWS-related discussions.
 
 **AWS Cloud Quetions and Answers ▶️**
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/blob/DevOps_Answers_AWS/AWS_Answers.mdhttps://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 
 -------------------------------------------------------------------------------------------------------------------
 
 
-**Linux:**
+**Linux :**
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/aa463264-4b53-4796-9c75-8c504ec7dfa6)
@@ -70,7 +70,7 @@ For Linux, you can find AWS interview questions and answers on platforms below l
 -------------------------------------------------------------------------------------------------------------------
 
 
-**TERRAFORM:**
+**TERRAFORM :**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/b5b15fbe-75cc-44c5-8b76-02454e14fa37)
 
@@ -93,7 +93,7 @@ For Terraform, you can find Terrform interview questions and answers on platform
 
 
 
-**CICD:**
+**CICD :**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/f23606c0-debc-4881-a691-50c75ce76dd9)
 
@@ -116,7 +116,7 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 -------------------------------------------------------------------------------------------------------------------
 
 
-**GIT**
+**GIT :**
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/0cf0a10b-00ee-4a16-82f2-d2d590e84b12)
@@ -151,7 +151,7 @@ For Git, you can find interview questions and answers on platforms like GitHub b
 
 
 
-**Kubernetes**
+**Kubernetes :**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/3624c709-a2d3-49c5-8860-c42ce4da5737)
 
@@ -183,7 +183,7 @@ For Kubernetes, you can find interview questions and answers on platforms like G
 -------------------------------------------------------------------------------------------------------------------
 
 
-**Ansible**
+**Ansible :**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/ff422095-a45b-4d63-b854-b4ca115f283f)
 
