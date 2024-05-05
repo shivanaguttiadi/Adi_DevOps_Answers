@@ -1,7 +1,6 @@
 **The Below URL Details **
 ** Hi Folks!!!**  You can explore interview questions and answers for specific technologies like AWS, Ansible, Terraform, CI/CD, Git, Kubernetes, and Linux on platforms like GitHub. Just search for repositories related to these technologies to find valuable resources for your preparation. 
-
-**Good luck❗**
+**Good luck**
 
 **✈️ AWS Cloud Quetions and Answers**
 
@@ -20,7 +19,8 @@
 **✈️ Scripting Quetions and Answers**
 
 
-**AWS **
+**AWS**![image](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/assets/143313733/d1627440-fcf5-4eac-b4f3-4d4270f8e920)
+
  
  Amazon Web Services, which is a cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage options, database management, machine learning, networking, and more, all delivered over the internet. AWS enables businesses to access scalable and reliable infrastructure without the need for physical hardware investments.
 
@@ -30,7 +30,6 @@ For AWS, you can find AWS interview questions and answers on platforms below lik
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Answers/tree/DevOps_Answers_AWS)
 
 **Linux**
-Certainly! Here's a brief explanation of Linux:
 
 Linux: Linux is a free and open-source operating system kernel that serves as the foundation for various Unix-like operating systems, commonly referred to as Linux distributions. Developed by Linus Torvalds in 1991, Linux is built on the principles of open collaboration and community-driven development. It provides a powerful, stable, and customizable platform for running a wide range of applications, from servers and desktops to embedded devices and supercomputers.
 
