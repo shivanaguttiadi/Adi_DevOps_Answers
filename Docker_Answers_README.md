@@ -165,21 +165,27 @@
 
 **Quetions and Answers Docker:**
 1. **What is a Dockerfile and how does it work?**
+
 Answer: A Dockerfile is a text file that contains a set of instructions to build a Docker image. These instructions define the environment and configuration of the image, including base image, dependencies, environment variables, and commands to run. When you build a Docker image using a Dockerfile, Docker reads the instructions sequentially and executes them to create the image layer by layer.
 
 2. **What is a Docker volume?**
+
 Answer: A Docker volume is a persistent data storage mechanism that allows containers to share and persist data across container instances and container lifecycle. Volumes are independent of container filesystems and can be used to store application data, configuration files, or any other data that needs to persist beyond the lifespan of a container.
 
 3. **What is the purpose of Docker?**
+
 Answer: Docker is a platform for developing, shipping, and running applications in containers. Its purpose is to simplify the process of building, deploying, and managing applications by providing a lightweight, portable, and scalable environment that isolates applications and their dependencies from the underlying infrastructure.
 
 4. **Difference between Docker and Ansible?**
+
 Answer: Docker is a containerization platform that allows you to package, distribute, and run applications in containers, while Ansible is a configuration management tool that automates the deployment and management of infrastructure and application environments. While Docker focuses on containerization and application deployment, Ansible focuses on configuration management and automation of infrastructure tasks.
 
 5. **What is the purpose and use of Docker?**
+
 Answer: The purpose of Docker is to simplify the process of building, deploying, and managing applications by providing a lightweight, portable, and scalable platform for running containerized applications. Docker enables developers to package applications and their dependencies into containers, which can then be deployed consistently across different environments, from development to production.
 
 6. **How to write a Dockerfile?**
+
 Answer: To write a Dockerfile, you define a set of instructions using the Dockerfile syntax. These instructions include specifying a base image, copying files and directories, setting environment variables, running commands, and exposing ports. Here's an example of a basic Dockerfile:
 ```Dockerfile
 FROM alpine:latest
@@ -189,6 +195,7 @@ CMD ["./app"]
 ```
 
 7. **Explain any 5 Docker commands?**
+
 Answer:
 - `docker build`: Builds a Docker image from a Dockerfile.
 - `docker run`: Runs a Docker container based on a specified image.
@@ -197,12 +204,15 @@ Answer:
 - `docker rm`: Removes one or more containers.
 
 8. **Explanation about COPY and ADD options in Dockerfile?**
+
 Answer: Both `COPY` and `ADD` are Dockerfile instructions used to copy files and directories from the host filesystem into the Docker image. The main difference between them is that `ADD` has some additional features, such as support for URLs and automatic extraction of compressed files. However, it's generally recommended to use `COPY` for simple file copying tasks to avoid unexpected behavior.
 
 9. **Explain about ENTRYPOINT in Dockerfile?**
+
 Answer: The `ENTRYPOINT` instruction in a Dockerfile specifies the command that should be executed when a container is started from the image. It sets the default executable for the container and allows you to define the primary process that runs in the container. You can use `ENTRYPOINT` to specify a script or executable that starts your application, along with any arguments or options.
 
 10. **Dockerfile structure?**
+
 Answer: A Dockerfile typically consists of a series of instructions that define the environment and configuration of a Docker image. These instructions are written in a simple syntax and are executed sequentially when the Docker image is built. The basic structure of a Dockerfile includes the following elements:
    - `FROM`: Specifies the base image for the Docker image.
    - `COPY` or `ADD`: Copies files and directories from the host filesystem into the Docker image.
@@ -254,8 +264,9 @@ Sure, here are five more scenario-based questions and answers related to Docker:
     **Answer:** Docker supports health checks for monitoring the status of containers and determining whether they are healthy or not. You can specify a health check command in a Dockerfile using the `HEALTHCHECK` instruction, which Docker will run periodically to assess the container's health. Additionally, you can define health check parameters such as intervals, timeouts, and retries to customize the health check behavior.
 
 **Diffrent type applications Docker files:
-Certainly! Here are Dockerfile scenarios tailored for different application types:
 
+**The Dockerfile scenarios tailored for different application types:
+**
 1. **Python Web Application (Flask)**
 
    ```Dockerfile
