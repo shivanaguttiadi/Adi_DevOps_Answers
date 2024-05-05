@@ -364,10 +364,10 @@ By explaining these topics in a concise and smart manner, you can effectively co
 
 **Monitoring Quetions and Answers**
 
-**Cloud Cost Optimizations** ▶️ [**click here**] (https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Cloud_Cost.README.md)
+**Cloud Cost Optimizations** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Cloud_Cost.README.md)
 
-**General Interview** ▶️ [**click here**] (https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Self_Prepare.READM.md)
+**General Interview** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Self_Prepare.READM.md)
 
-**Basic Troubleshooting** ▶️ [**click here**] (https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/troubleshooting_Answers_README.md)
+**Basic Troubleshooting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/troubleshooting_Answers_README.md)
 
 -----------------------------------------------------------------------------------------------------------------
