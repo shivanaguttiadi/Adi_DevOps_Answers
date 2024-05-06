@@ -162,7 +162,7 @@ Git: Git is a free and open-source distributed version control system designed t
 
 **Bitbucket:** Bitbucket is a Git-based version control platform owned by Atlassian, offering features similar to GitHub and GitLab. It provides both cloud-based and self-hosted options for hosting Git repositories and is often used by teams that use other Atlassian products like Jira and Confluence.
 
-For Git, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Git-related discussions.
+For Git, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Git interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Git-related discussions.
 
 **Git scm Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Git/Git_Answers_README.md)
@@ -208,7 +208,7 @@ Kubernetes: Kubernetes is a powerful container orchestration tool that helps man
 
 7. Extensibility: Kubernetes is highly extensible and customizable, with a rich ecosystem of plugins, extensions, and integrations. It provides APIs and extension points for integrating with third-party tools and services, enabling users to tailor Kubernetes to their specific requirements.
 
-For Kubernetes, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Kubernetes-related discussions.
+For Kubernetes, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Kubernetes interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Kubernetes-related discussions.
 
 ** Kubernetes Quetions and Answers▶️**
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Kubernetes/Kubernetes_Answers_README.md)
@@ -276,7 +276,7 @@ Explanation:
 
 These simple scripts demonstrate the basic syntax and functionality of Python and Bash, two commonly used scripting languages in software development and system administration.
 
-For Scripting, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Scripting-related discussions.
+For Scripting, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Scripting interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Scripting-related discussions.
 
 **Scripting Quetions and Answers▶️**
 
@@ -310,7 +310,7 @@ DevOps security refers to the practices, processes, and tools used to integrate 
 
 8. **Threat Modeling and Risk Assessment**: DevOps security involves conducting threat modeling and risk assessments to identify potential security risks and prioritize mitigation efforts. By understanding the threat landscape, teams can proactively address security vulnerabilities and minimize exposure to threats.
 
-For Security, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Security-related discussions.
+For Security, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to DevOps Security interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Security-related discussions.
 
 **Security Quetions and Answers▶️**
 
@@ -345,7 +345,7 @@ Monitoring in DevOps refers to the practice of observing and tracking the perfor
 Overall, effective monitoring practices are essential for maintaining the reliability, performance, and security of modern software systems in DevOps environments. By investing in robust monitoring solutions and processes, organizations can detect and address issues proactively, optimize system performance, and deliver better experiences to end-users.
 
 
-For Monitoring, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Monitoring-related discussions.
+For Monitoring, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Ansible interview preparation. These repositories typically contain a curated list of common Monitoring interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Monitoring-related discussions.
 
 **Monitoring Quetions and Answers**
 
