@@ -210,7 +210,7 @@ Kubernetes: Kubernetes is a powerful container orchestration tool that helps man
 
 For Kubernetes, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Kubernetes interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Kubernetes-related discussions.
 
-** Kubernetes Quetions and Answers▶️**
+Kubernetes Quetions and Answers▶️
 [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Kubernetes/Kubernetes_Answers_README.md)
 
 -------------------------------------------------------------------------------------------------------------------
